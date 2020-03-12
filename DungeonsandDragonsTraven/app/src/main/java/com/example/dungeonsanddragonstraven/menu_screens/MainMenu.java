@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.dungeonsanddragonstraven.R;
+
 public class MainMenu extends Fragment {
 
     public static MainMenu newInstance() {
@@ -23,6 +25,6 @@ public class MainMenu extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        re
+        return inflater.inflate(R.layout.main_menu_screen, container, false);
     }
 }
