@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "856458728527",
+    "firebase_url": "https://dungeons-and-dragons-tavern.firebaseio.com",
+    "project_id": "dungeons-and-dragons-tavern",
+    "storage_bucket": "dungeons-and-dragons-tavern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856458728527:android:84d5f2f499e10be292063a",
+        "android_client_info": {
+          "package_name": "com.example.dungeonsanddragonstraven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856458728527-69tvddiqbia1koijlhb65vq68n5ario9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW8l1sLjq4ERsPOFGBmYVCmMDmXOQKBxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856458728527-69tvddiqbia1koijlhb65vq68n5ario9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

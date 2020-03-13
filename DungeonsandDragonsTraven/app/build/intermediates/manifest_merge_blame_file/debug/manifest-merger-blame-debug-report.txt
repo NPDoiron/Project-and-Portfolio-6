@@ -10,37 +10,171 @@
 9        android:targetSdkVersion="28" />
 9-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.dungeonsanddragonstraven.MainActivity" >
-20-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:14:17-69
-22-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:16:17-77
-24-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+11    <!-- Required permission for App measurement to run. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:23:5-67
+12-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:23:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+13-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:5:5-22:19
+19        android:allowBackup="true"
+19-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/2d42ef9e774e9ee6e52a44ee4b2740f7/core-1.0.1/AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:10:9-35
+26        android:theme="@style/AppTheme" >
+26-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:11:9-40
+27        <activity android:name="com.example.dungeonsanddragonstraven.MainActivity" >
+27-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:12:9-18:20
+27-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:12:19-47
+28            <intent-filter>
+28-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:13:13-17:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:14:17-69
+29-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:14:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:16:17-77
+31-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:16:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <meta-data
+35-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:19:9-21:57
+36            android:name="preloaded_fonts"
+36-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:20:13-43
+37            android:resource="@array/preloaded_fonts" />
+37-->/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/AndroidManifest.xml:21:13-54
+38
+39        <receiver
+39-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+40            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+40-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+41            android:enabled="true"
+41-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+42            android:exported="false" >
+42-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+43        </receiver>
+44        <receiver
+44-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+45            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+45-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+46            android:enabled="true"
+46-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+47            android:exported="true"
+47-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+48            android:permission="android.permission.INSTALL_PACKAGES" >
+48-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+49            <intent-filter>
+49-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+50                <action android:name="com.android.vending.INSTALL_REFERRER" />
+50-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+50-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+51            </intent-filter>
+52        </receiver>
+53
+54        <service
+54-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+55            android:name="com.google.android.gms.measurement.AppMeasurementService"
+55-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+56            android:enabled="true"
+56-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+57            android:exported="false" />
+57-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+58        <service
+58-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+59            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+59-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+60            android:enabled="true"
+60-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+62            android:permission="android.permission.BIND_JOB_SERVICE" />
+62-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/e3c6ea9c5e7419dbd66b49faf943504b/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+63        <service
+63-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+68                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+68-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/62dbe09e032aebaa92545e554279c27c/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+71                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+71-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+73        </service>
+74
+75        <receiver
+75-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+76            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+76-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+77            android:exported="true"
+77-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+78            android:permission="com.google.android.c2dm.permission.SEND" >
+78-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+79            <intent-filter>
+79-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+80                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+80-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+80-->[com.google.firebase:firebase-iid:20.0.2] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/49117a355909701fe97fccd03bec6c1c/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+81            </intent-filter>
+82        </receiver>
+83
+84        <provider
+84-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+86            android:authorities="com.example.dungeonsanddragonstraven.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+87            android:exported="false"
+87-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+88            android:initOrder="100" />
+88-->[com.google.firebase:firebase-common:19.3.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/5017075f2c179a07eae5764e77a41dec/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/fe97f892628e8067ae3b33739873eadd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/fe97f892628e8067ae3b33739873eadd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/fe97f892628e8067ae3b33739873eadd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

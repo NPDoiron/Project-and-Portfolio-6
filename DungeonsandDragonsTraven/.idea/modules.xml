@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dungeons and Dragons Traven.iml" filepath="$PROJECT_DIR$/Dungeons and Dragons Traven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dungeons and Dragons Tavern.iml" filepath="$PROJECT_DIR$/Dungeons and Dragons Tavern.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
