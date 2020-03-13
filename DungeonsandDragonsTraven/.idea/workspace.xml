@@ -38,8 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sign_up_screen.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml">
           <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor" />
         </entry>
@@ -62,13 +68,13 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/MainMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_menu_screen.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/SignUpFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/LoginFrag.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/sign_up_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml" />
       </list>
     </option>
   </component>
@@ -285,10 +291,6 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/LoginFrag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -334,6 +336,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sign_up_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>

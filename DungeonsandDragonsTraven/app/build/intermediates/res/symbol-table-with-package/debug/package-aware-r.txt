@@ -670,6 +670,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_arrow_back24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -691,10 +692,12 @@ font allan
 id ALT
 id CTRL
 id FUNCTION
+id LoginScreen
 id META
 id MainMenuScreen
 id SHIFT
 id SYM
+id SignUpScreen
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -775,7 +778,10 @@ id line1
 id line3
 id listMode
 id list_item
+id loginBackBtn
 id loginBtn
+id loginEmail
+id loginPassword
 id message
 id middle
 id multiply
@@ -814,6 +820,10 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signBackBtn
+id signEmailText
+id signPassText
+id signRepeatPassText
 id signUpBtn
 id spacer
 id split_action_bar
@@ -937,6 +947,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string back_button
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -957,6 +968,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
 string dungeons_dragons_taverns
+string email
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -964,7 +976,9 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string login
+string password
 string project_id
+string repeat_password
 string search_menu_title
 string sign_up
 string status_bar_notification_info_overflow
