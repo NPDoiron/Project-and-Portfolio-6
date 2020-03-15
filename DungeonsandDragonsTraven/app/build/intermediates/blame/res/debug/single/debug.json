@@ -113,7 +113,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
@@ -205,7 +205,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -261,7 +261,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -353,7 +353,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -361,11 +361,11 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -381,7 +381,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -421,7 +421,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -429,7 +429,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -621,7 +621,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
@@ -653,7 +653,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
@@ -713,7 +713,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -721,11 +721,11 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -785,7 +785,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat",
@@ -849,7 +849,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -857,7 +857,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -901,7 +901,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1005,7 +1005,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1052,12 +1052,16 @@
         "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/2d42ef9e774e9ee6e52a44ee4b2740f7/core-1.0.1/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/layout_character_selection_screen.xml.flat",
+        "source": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/src/main/res/layout/character_selection_screen.xml"
+    },
+    {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/da3be2ddcc0517ca0139996c7f84b4bc/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -1085,7 +1089,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -1097,7 +1101,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1165,7 +1169,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1177,11 +1181,11 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1273,7 +1277,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1289,7 +1293,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -1301,7 +1305,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
@@ -1341,7 +1345,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1361,7 +1365,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1373,7 +1377,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1393,7 +1397,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1421,7 +1425,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1433,7 +1437,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1449,7 +1453,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1517,7 +1521,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1573,7 +1577,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1589,7 +1593,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1605,7 +1609,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -1645,7 +1649,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -1681,7 +1685,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -1709,7 +1713,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1737,7 +1741,7 @@
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/3d429ad93701397c0f3effdd7e40158e/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/hiddenshadow44/.gradle/caches/transforms-2/files-2.1/0897e8f941a5d0a6bb4abc77e94f9b6e/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/hiddenshadow44/Documents/GitHub/Project-and-Portfolio-6/DungeonsandDragonsTraven/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",

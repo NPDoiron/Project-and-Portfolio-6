@@ -892,6 +892,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout character_selection_screen
 layout login_screen
 layout main_menu_screen
 layout notification_action
