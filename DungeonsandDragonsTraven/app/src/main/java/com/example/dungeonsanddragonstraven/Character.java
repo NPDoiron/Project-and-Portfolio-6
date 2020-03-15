@@ -1,4 +1,4 @@
-package com.example.dungeonsanddragonstraven.menu_screens;
+package com.example.dungeonsanddragonstraven;
 
 import java.io.Serializable;
 

@@ -1,17 +1,28 @@
 package com.example.dungeonsanddragonstraven.menu_screens;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.dungeonsanddragonstraven.CharacterSelectionFrag;
 import com.example.dungeonsanddragonstraven.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Objects;
 
 public class LoginFrag extends Fragment {
+    private FirebaseAuth mAuth;
 
     public static LoginFrag newInstance() {
 
@@ -31,5 +42,30 @@ public class LoginFrag extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.login_screen, container, false);
+    }
+
+    private void loginUser(){
+        EditText email = getActivity().findViewById(R.id.loginEmail);
+        EditText password = getActivity().findViewById(R.id.loginPassword);
+
+        String emailText = email.getText().toString();
+        String passwordText = password.getText().toString();
+
+        mAuth.signInWithEmailAndPassword(emailText, passwordText)
+                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            Log.i("Success", "User has logged in");
+                            Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction()
+                                    .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
+                        } else {
+                            Log.w("Error", "signInWithEmail:failure", task.getException());
+                            Toast.makeText(getContext(), "Authentication failed.",
+                                    Toast.LENGTH_SHORT).show();
+
+                        }
+                    }
+                });
     }
 }
