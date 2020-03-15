@@ -786,6 +786,7 @@ id logOutBtn
 id loginBackBtn
 id loginBtn
 id loginEmail
+id loginLoginBtn
 id loginPassword
 id message
 id middle
@@ -829,6 +830,7 @@ id signBackBtn
 id signEmailText
 id signPassText
 id signRepeatPassText
+id signSignUpBtn
 id signUpBtn
 id spacer
 id split_action_bar

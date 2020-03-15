@@ -7,12 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.dungeonsanddragonstraven.Character;
 import com.example.dungeonsanddragonstraven.CharacterSelectionFrag;
 import com.example.dungeonsanddragonstraven.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -51,12 +53,20 @@ public class SignUpFrag extends Fragment {
         FirebaseDatabase datebase = FirebaseDatabase.getInstance();
         ref = datebase.getReference("data");
 
-        Button signUpBtn = getActivity().findViewById(R.id.signUpBtn);
+        Button signUpBtn = getActivity().findViewById(R.id.signSignUpBtn);
+        ImageView backBtn = getActivity().findViewById(R.id.signBackBtn);
 
         signUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 createNewUser();
+            }
+        });
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().onBackPressed();
             }
         });
     }
@@ -68,7 +78,7 @@ public class SignUpFrag extends Fragment {
     }
 
     private void createNewUser(){
-        EditText email = getActivity().findViewById(R.id.signEmailText);
+        final EditText email = getActivity().findViewById(R.id.signEmailText);
         EditText password = getActivity().findViewById(R.id.signPassText);
 
         emailText = email.getText().toString();
@@ -84,7 +94,7 @@ public class SignUpFrag extends Fragment {
 
                             DatabaseReference userRef = ref.child("users");
 
-                            userRef.child(currentUser.getUid());
+                            userRef.child(Objects.requireNonNull(currentUser).getUid()).setValue(new Character("test"));
 
                             Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction()
                                     .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
