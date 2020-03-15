@@ -31,7 +31,6 @@ public class SignUpFrag extends Fragment {
     private FirebaseAuth mAuth;
     private DatabaseReference ref;
 
-    private String userText;
     private String emailText;
     private String passwordText;
 
