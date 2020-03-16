@@ -36,7 +36,7 @@
         android:id="@+id/conTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         android:text="@string/con"
         android:textColor="#B9D6F2"
@@ -48,7 +48,7 @@
         android:id="@+id/dexTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:text="@string/dex"
         android:textColor="#B9D6F2"
@@ -60,7 +60,7 @@
         android:id="@+id/strTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:text="@string/str"
         android:textColor="#B9D6F2"
@@ -103,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/base"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -114,7 +114,7 @@
         android:id="@+id/modTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/modifier"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -125,7 +125,7 @@
         android:id="@+id/totalTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/total"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -136,7 +136,7 @@
         android:id="@+id/raceBonusTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/race_bonus"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -169,7 +169,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/charism"
         android:textColor="#B9D6F2"
@@ -178,7 +178,7 @@
         app:layout_constraintTop_toBottomOf="@+id/totalTitle" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/intSpinner"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -188,7 +188,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Spinner
-        android:id="@+id/spinner5"
+        android:id="@+id/wisSpinner"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -198,7 +198,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Spinner
-        android:id="@+id/spinner6"
+        android:id="@+id/charSpinner"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -212,18 +212,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/base"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+        app:layout_constraintTop_toBottomOf="@+id/intSpinner" />
 
     <TextView
         android:id="@+id/totalTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/total"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -234,7 +234,7 @@
         android:id="@+id/ModTitleTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/modifier"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -245,7 +245,7 @@
         android:id="@+id/raceBonusTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/race_bonus"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
@@ -323,44 +323,44 @@
         app:layout_constraintTop_toTopOf="@+id/raceBonusTitle" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/conBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="189dp" />
+        app:layout_constraintEnd_toEndOf="@+id/conSpinner"
+        app:layout_constraintStart_toStartOf="@+id/conSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitle" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/conMod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="334dp"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintEnd_toEndOf="@+id/conSpinner"
+        app:layout_constraintStart_toStartOf="@+id/conSpinner"
+        app:layout_constraintTop_toTopOf="@+id/modTitle" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/conRace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="343dp"
-        tools:layout_editor_absoluteY="261dp" />
+        app:layout_constraintEnd_toEndOf="@+id/conSpinner"
+        app:layout_constraintStart_toStartOf="@+id/conSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTitle" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/conTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textColor="#B9D6F2"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="335dp"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintEnd_toEndOf="@+id/conSpinner"
+        app:layout_constraintStart_toStartOf="@+id/conSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTitle" />
 
     <TextView
         android:id="@+id/dexTotal"
@@ -371,4 +371,149 @@
         app:layout_constraintEnd_toEndOf="@+id/dexSpinner"
         app:layout_constraintStart_toStartOf="@+id/dexSpinner"
         app:layout_constraintTop_toTopOf="@+id/totalTitle" />
+
+    <TextView
+        android:id="@+id/intBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/intSpinner"
+        app:layout_constraintStart_toStartOf="@+id/intSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitleTwo" />
+
+    <TextView
+        android:id="@+id/intMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/intSpinner"
+        app:layout_constraintStart_toStartOf="@+id/intSpinner"
+        app:layout_constraintTop_toTopOf="@+id/ModTitleTwo" />
+
+    <TextView
+        android:id="@+id/intRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/intSpinner"
+        app:layout_constraintStart_toStartOf="@+id/intSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTwo" />
+
+    <TextView
+        android:id="@+id/intTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/intSpinner"
+        app:layout_constraintStart_toStartOf="@+id/intSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTwo" />
+
+    <TextView
+        android:id="@+id/wisBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/wisSpinner"
+        app:layout_constraintStart_toStartOf="@+id/wisSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitleTwo" />
+
+    <TextView
+        android:id="@+id/wisMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/wisSpinner"
+        app:layout_constraintStart_toStartOf="@+id/wisSpinner"
+        app:layout_constraintTop_toTopOf="@+id/ModTitleTwo" />
+
+    <TextView
+        android:id="@+id/wisRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/wisSpinner"
+        app:layout_constraintStart_toStartOf="@+id/wisSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTwo" />
+
+    <TextView
+        android:id="@+id/wisTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/wisSpinner"
+        app:layout_constraintStart_toStartOf="@+id/wisSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTwo" />
+
+    <TextView
+        android:id="@+id/charBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/charSpinner"
+        app:layout_constraintStart_toStartOf="@+id/charSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitleTwo" />
+
+    <TextView
+        android:id="@+id/charMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/charSpinner"
+        app:layout_constraintStart_toStartOf="@+id/charSpinner"
+        app:layout_constraintTop_toTopOf="@+id/ModTitleTwo" />
+
+    <TextView
+        android:id="@+id/charRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/charSpinner"
+        app:layout_constraintStart_toStartOf="@+id/charSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTwo" />
+
+    <TextView
+        android:id="@+id/charTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/charSpinner"
+        app:layout_constraintStart_toStartOf="@+id/charSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTwo" />
+
+    <Button
+        android:id="@+id/continueBtnScreenThree"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#0353A4"
+        android:text="@string/continu"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalTwo" />
+
+    <ImageView
+        android:id="@+id/backBtnScreenTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

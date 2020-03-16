@@ -15,6 +15,32 @@
         <item>Warlock</item>
         <item>Wizard</item>
     </string-array>
+    <string-array name="all_languages">
+        <item>Select a language</item>
+        <item>Abyssal</item>
+        <item>Celestial</item>
+        <item>Daelkyr</item>
+        <item>Deep Speech</item>
+        <item>Draconic</item>
+        <item>Dwarvish</item>
+        <item>Elvish</item>
+        <item>Giant</item>
+        <item>Gith</item>
+        <item>Gnomish</item>
+        <item>Goblin</item>
+        <item>Halfling</item>
+        <item>Infernal</item>
+        <item>Kraul</item>
+        <item>Loxodon</item>
+        <item>Minotaur</item>
+        <item>Orc</item>
+        <item>Primordial</item>
+        <item>Quori</item>
+        <item>Riedran</item>
+        <item>Sylvan</item>
+        <item>Undercommon</item>
+        <item>Vedalken</item>
+    </string-array>
     <string-array name="all_races">
         <item>Select a race.</item>
         <item>Aarakocra</item>
@@ -39,6 +65,16 @@
         <item>Tiefling</item>
         <item>Aasimar</item>
     </string-array>
+    <string-array name="background_array">
+        <item>Choose a background</item>
+        <item>Acolyte</item>
+        <item>Criminal/Spy</item>
+        <item>Folk Hero</item>
+        <item>Haunted One</item>
+        <item>Noble</item>
+        <item>Sage</item>
+        <item>Soldier</item>
+    </string-array>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
         <item>@array/com_google_android_gms_fonts_certs_prod</item>
@@ -53,7 +89,7 @@
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
     </string-array>
-    <integer-array name="point_number">
+    <string-array name="point_number">
         <item>8</item>
         <item>9</item>
         <item>10</item>
@@ -62,7 +98,7 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
-    </integer-array>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aladin</item>
         <item>@font/allan</item>
@@ -451,12 +487,21 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="age_years">Age(years)</string>
+    <string name="alignment">Alignment</string>
     <string name="app_name">Dungeons and Dragons Traven</string>
     <string name="back_button">back button</string>
+    <string name="background">Background</string>
+    <string name="background_feature">Background Feature</string>
     <string name="base">Base:</string>
     <string name="cancel_icon">cancel icon</string>
     <string name="change_image">Change Image</string>
     <string name="character_image">Character Image</string>
+    <string name="character_s_age">Character\'s Age</string>
+    <string name="character_s_gender">Character\'s Gender</string>
+    <string name="character_s_height">Character\'s Height</string>
+    <string name="character_s_name">Character\'s Name</string>
+    <string name="character_s_weight">Character\'s Weight</string>
     <string name="charism">Char</string>
     <string name="clas">Class</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -479,23 +524,32 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="con">Con</string>
     <string name="continu">Continue</string>
+    <string name="create_character">Create Character</string>
     <string name="create_character_btn">create character btn</string>
     <string name="default_web_client_id" translatable="false">856458728527-69tvddiqbia1koijlhb65vq68n5ario9.apps.googleusercontent.com</string>
     <string name="dex">Dex</string>
     <string name="dungeons_dragons_taverns"><![CDATA[Dungeons & Dragons Taverns]]></string>
     <string name="email">Email</string>
+    <string name="enter_faith">Enter faith</string>
+    <string name="faith">Faith</string>
     <string name="firebase_database_url" translatable="false">https://dungeons-and-dragons-tavern.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">856458728527</string>
+    <string name="gender">Gender</string>
+    <string name="generate_name">Generate Name</string>
     <string name="google_api_key" translatable="false">AIzaSyBW8l1sLjq4ERsPOFGBmYVCmMDmXOQKBxw</string>
     <string name="google_app_id" translatable="false">1:856458728527:android:84d5f2f499e10be292063a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBW8l1sLjq4ERsPOFGBmYVCmMDmXOQKBxw</string>
     <string name="google_storage_bucket" translatable="false">dungeons-and-dragons-tavern.appspot.com</string>
+    <string name="height">Height</string>
     <string name="how_do_you_want_to_create_your_character">How do you want to create your character?</string>
     <string name="intpoint">Int</string>
+    <string name="langauges">Langauges</string>
+    <string name="lifestyle">Lifestyle</string>
     <string name="log_out">Log Out</string>
     <string name="login">Login</string>
     <string name="manual_creation">Manual Creation</string>
     <string name="modifier">Modifier:</string>
+    <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="points_remaining">Points Remaining</string>
     <string name="project_id" translatable="false">dungeons-and-dragons-tavern</string>
@@ -505,9 +559,11 @@
     <string name="repeat_password">Repeat Password</string>
     <string name="search_menu_title">Search</string>
     <string name="sign_up">Sign Up</string>
+    <string name="skill_proficiencies">Skill Proficiencies</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str">Str</string>
     <string name="total">Total:</string>
+    <string name="weight">Weight</string>
     <string name="wis">Wis</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

@@ -29,6 +29,26 @@
     <string name="intpoint">Int</string>
     <string name="wis">Wis</string>
     <string name="charism">Char</string>
+    <string name="background">Background</string>
+    <string name="skill_proficiencies">Skill Proficiencies</string>
+    <string name="langauges">Langauges</string>
+    <string name="background_feature">Background Feature</string>
+    <string name="alignment">Alignment</string>
+    <string name="faith">Faith</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="enter_faith">Enter faith</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="age_years">Age(years)</string>
+    <string name="gender">Gender</string>
+    <string name="name">Name</string>
+    <string name="character_s_height">Character\'s Height</string>
+    <string name="character_s_weight">Character\'s Weight</string>
+    <string name="character_s_age">Character\'s Age</string>
+    <string name="character_s_gender">Character\'s Gender</string>
+    <string name="character_s_name">Character\'s Name</string>
+    <string name="create_character">Create Character</string>
+    <string name="generate_name">Generate Name</string>
 
     <string-array name="all_races">
         <item>Select a race.</item>
@@ -71,7 +91,7 @@
         <item>Wizard</item>
     </string-array>
 
-    <integer-array name="point_number">
+    <string-array name="point_number">
         <item>8</item>
         <item>9</item>
         <item>10</item>
@@ -80,5 +100,43 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
-    </integer-array>
+    </string-array>
+
+    <string-array name="background_array">
+        <item>Choose a background</item>
+        <item>Acolyte</item>
+        <item>Criminal/Spy</item>
+        <item>Folk Hero</item>
+        <item>Haunted One</item>
+        <item>Noble</item>
+        <item>Sage</item>
+        <item>Soldier</item>
+    </string-array>
+
+    <string-array name="all_languages">
+        <item>Select a language</item>
+        <item>Abyssal</item>
+        <item>Celestial</item>
+        <item>Daelkyr</item>
+        <item>Deep Speech</item>
+        <item>Draconic</item>
+        <item>Dwarvish</item>
+        <item>Elvish</item>
+        <item>Giant</item>
+        <item>Gith</item>
+        <item>Gnomish</item>
+        <item>Goblin</item>
+        <item>Halfling</item>
+        <item>Infernal</item>
+        <item>Kraul</item>
+        <item>Loxodon</item>
+        <item>Minotaur</item>
+        <item>Orc</item>
+        <item>Primordial</item>
+        <item>Quori</item>
+        <item>Riedran</item>
+        <item>Sylvan</item>
+        <item>Undercommon</item>
+        <item>Vedalken</item>
+    </string-array>
 </resources>
