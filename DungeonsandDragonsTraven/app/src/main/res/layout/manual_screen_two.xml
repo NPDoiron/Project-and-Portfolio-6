@@ -1,6 +1,374 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ManualScreenTwo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A352A"
+    android:orientation="vertical">
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/pointTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/points_remaining"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/remainingDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pointTitle" />
+
+    <TextView
+        android:id="@+id/conTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/con"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/remainingDisplay" />
+
+    <TextView
+        android:id="@+id/dexTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/dex"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/conTitle"
+        app:layout_constraintTop_toBottomOf="@+id/remainingDisplay" />
+
+    <TextView
+        android:id="@+id/strTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/str"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/dexTitle"
+        app:layout_constraintTop_toBottomOf="@+id/remainingDisplay" />
+
+    <Spinner
+        android:id="@+id/strSpinner"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/strTitle"
+        app:layout_constraintTop_toBottomOf="@+id/strTitle" />
+
+    <Spinner
+        android:id="@+id/dexSpinner"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/dexTitle"
+        app:layout_constraintTop_toBottomOf="@+id/dexTitle" />
+
+    <Spinner
+        android:id="@+id/conSpinner"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/conTitle"
+        app:layout_constraintTop_toBottomOf="@+id/conTitle" />
+
+    <TextView
+        android:id="@+id/baseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/base"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strSpinner" />
+
+    <TextView
+        android:id="@+id/modTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/modifier"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/baseTitle"
+        app:layout_constraintTop_toBottomOf="@+id/baseTitle" />
+
+    <TextView
+        android:id="@+id/totalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/total"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/raceBonusTitle"
+        app:layout_constraintTop_toBottomOf="@+id/raceBonusTitle" />
+
+    <TextView
+        android:id="@+id/raceBonusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/race_bonus"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/modTitle"
+        app:layout_constraintTop_toBottomOf="@+id/modTitle" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="@string/intpoint"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="@string/wis"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/charism"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalTitle" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:entries="@array/point_number"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/baseTitleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/base"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+
+    <TextView
+        android:id="@+id/totalTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/total"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/raceBonusTwo"
+        app:layout_constraintTop_toBottomOf="@+id/raceBonusTwo" />
+
+    <TextView
+        android:id="@+id/ModTitleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/modifier"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/baseTitleTwo"
+        app:layout_constraintTop_toBottomOf="@+id/baseTitleTwo" />
+
+    <TextView
+        android:id="@+id/raceBonusTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/race_bonus"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/ModTitleTwo"
+        app:layout_constraintTop_toBottomOf="@+id/ModTitleTwo" />
+
+    <TextView
+        android:id="@+id/strBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/strSpinner"
+        app:layout_constraintStart_toStartOf="@+id/strSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitle" />
+
+    <TextView
+        android:id="@+id/strMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/strSpinner"
+        app:layout_constraintStart_toStartOf="@+id/strSpinner"
+        app:layout_constraintTop_toTopOf="@+id/modTitle" />
+
+    <TextView
+        android:id="@+id/strRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/strSpinner"
+        app:layout_constraintStart_toStartOf="@+id/strSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTitle" />
+
+    <TextView
+        android:id="@+id/strTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/strSpinner"
+        app:layout_constraintStart_toStartOf="@+id/strSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTitle" />
+
+    <TextView
+        android:id="@+id/dexBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dexSpinner"
+        app:layout_constraintStart_toStartOf="@+id/dexSpinner"
+        app:layout_constraintTop_toTopOf="@+id/baseTitle" />
+
+    <TextView
+        android:id="@+id/dexMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dexSpinner"
+        app:layout_constraintStart_toStartOf="@+id/dexSpinner"
+        app:layout_constraintTop_toTopOf="@+id/modTitle" />
+
+    <TextView
+        android:id="@+id/dexRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dexSpinner"
+        app:layout_constraintStart_toStartOf="@+id/dexSpinner"
+        app:layout_constraintTop_toTopOf="@+id/raceBonusTitle" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="344dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/dexTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B9D6F2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dexSpinner"
+        app:layout_constraintStart_toStartOf="@+id/dexSpinner"
+        app:layout_constraintTop_toTopOf="@+id/totalTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

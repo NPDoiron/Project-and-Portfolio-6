@@ -55,6 +55,9 @@ public class CharacterSelectionFrag extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        getActivity().getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragcontainer, CharacterCreateBtnFrag.newInstance()).addToBackStack("CreationBtn").commit();
+
         return super.onOptionsItemSelected(item);
     }
 

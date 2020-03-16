@@ -39,6 +39,8 @@ public class LoginFrag extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
+        mAuth = FirebaseAuth.getInstance();
+
         Button loginBtn = getActivity().findViewById(R.id.loginLoginBtn);
         ImageView backBtn = getActivity().findViewById(R.id.loginBackBtn);
 

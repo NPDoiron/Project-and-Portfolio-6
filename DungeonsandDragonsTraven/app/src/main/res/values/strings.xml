@@ -10,4 +10,75 @@
     <string name="create_character_btn">create character btn</string>
     <string name="log_out">Log Out</string>
     <string name="how_do_you_want_to_create_your_character">How do you want to create your character?</string>
+    <string name="cancel_icon">cancel icon</string>
+    <string name="character_image">Character Image</string>
+    <string name="change_image">Change Image</string>
+    <string name="race">Race</string>
+    <string name="clas">Class</string>
+    <string name="continu">Continue</string>
+    <string name="manual_creation">Manual Creation</string>
+    <string name="randomized_creation">Randomized Creation</string>
+    <string name="points_remaining">Points Remaining</string>
+    <string name="con">Con</string>
+    <string name="str">Str</string>
+    <string name="dex">Dex</string>
+    <string name="base">Base:</string>
+    <string name="modifier">Modifier:</string>
+    <string name="race_bonus">Race Bonus:</string>
+    <string name="total">Total:</string>
+    <string name="intpoint">Int</string>
+    <string name="wis">Wis</string>
+    <string name="charism">Char</string>
+
+    <string-array name="all_races">
+        <item>Select a race.</item>
+        <item>Aarakocra</item>
+        <item>Dragonborn</item>
+        <item>Hill Dwarf</item>
+        <item>Mountain Dwarf</item>
+        <item>Eladrin Elf</item>
+        <item>High Elf</item>
+        <item>Wood Elf</item>
+        <item>Air Genasi</item>
+        <item>Earth Genasi</item>
+        <item>Water Genasi</item>
+        <item>Fire Genasi</item>
+        <item>Deep Gnome</item>
+        <item>Rock Gnome</item>
+        <item>Goliath</item>
+        <item>High-Elf</item>
+        <item>Half-Orc</item>
+        <item>Human</item>
+        <item>Lightfoot Halfling</item>
+        <item>Stout Halfling</item>
+        <item>Tiefling</item>
+        <item>Aasimar</item>
+    </string-array>
+
+    <string-array name="all_classes">
+        <item>Select a class.</item>
+        <item>Barbarian</item>
+        <item>Bard</item>
+        <item>Cleric</item>
+        <item>Druid</item>
+        <item>Fighter</item>
+        <item>Monk</item>
+        <item>Paladin</item>
+        <item>Ranger</item>
+        <item>Rogue</item>
+        <item>Sorcerer</item>
+        <item>Warlock</item>
+        <item>Wizard</item>
+    </string-array>
+
+    <integer-array name="point_number">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
 </resources>

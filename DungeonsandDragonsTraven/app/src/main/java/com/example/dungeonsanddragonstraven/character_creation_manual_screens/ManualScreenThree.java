@@ -1,4 +1,6 @@
 package com.example.dungeonsanddragonstraven.character_creation_manual_screens;
 
-public class ManualScreenThree {
+import androidx.fragment.app.Fragment;
+
+public class ManualScreenThree extends Fragment {
 }

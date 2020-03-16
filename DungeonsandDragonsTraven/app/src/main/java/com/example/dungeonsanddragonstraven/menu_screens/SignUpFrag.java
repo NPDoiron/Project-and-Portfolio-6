@@ -89,11 +89,9 @@ public class SignUpFrag extends Fragment {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Log.d("Created", "Creating user was successful");
-                            FirebaseUser currentUser = mAuth.getCurrentUser();
-
-                            DatabaseReference userRef = ref.child("users");
-
-                            userRef.child(Objects.requireNonNull(currentUser).getUid()).setValue(new Character("test"));
+                            //FirebaseUser currentUser = mAuth.getCurrentUser();
+                            //DatabaseReference userRef = ref.child("users");
+                            //userRef.child(Objects.requireNonNull(currentUser).getUid()).setValue(new Character("test"));
 
                             Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction()
                                     .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
