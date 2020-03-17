@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titleTextScreenFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -23,13 +23,13 @@
     <ScrollView
         android:id="@+id/scrollView5"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/titleTextScreenFour">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,30 +83,32 @@
         app:layout_constraintTop_toBottomOf="@+id/alignmentTitle" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/alignmentSpinner"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
+        android:entries="@array/all_alignments"
         app:layout_constraintBottom_toBottomOf="@+id/alignmentTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/alignmentTitle"
         app:layout_constraintTop_toTopOf="@+id/alignmentTitle" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/lifeStyleSpinner"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
+        android:entries="@array/all_lifestyles"
         app:layout_constraintBottom_toBottomOf="@+id/lifeStyleTitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="@+id/alignmentSpinner"
         app:layout_constraintTop_toTopOf="@+id/lifeStyleTitle" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/faithEdit"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@android:color/white"
@@ -114,8 +116,8 @@
         android:hint="@string/enter_faith"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/faithTitle"
-        app:layout_constraintEnd_toEndOf="@+id/spinner"
-        app:layout_constraintStart_toStartOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="@+id/alignmentSpinner"
+        app:layout_constraintStart_toStartOf="@+id/alignmentSpinner"
         app:layout_constraintTop_toTopOf="@+id/faithTitle"
         android:importantForAutofill="no" />
 
@@ -124,12 +126,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Physical Characteristics"
+        android:text="@string/physical_characteristics"
         android:textColor="#B9D6F2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+        app:layout_constraintTop_toBottomOf="@+id/lifeStyleSpinner" />
 
     <TextView
         android:id="@+id/textView7"
@@ -137,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Hair"
+        android:text="@string/hair"
         android:textColor="#B9D6F2"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -148,7 +150,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Skin"
+        android:text="@string/skin"
         android:textColor="#B9D6F2"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -159,51 +161,54 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Eyes"
+        android:text="@string/eyes"
         android:textColor="#B9D6F2"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/hairEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
         android:ems="10"
-        android:hint="Character Hair"
+        android:hint="@string/character_hair"
         android:inputType="textPersonName"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView7" />
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/skinEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
         android:ems="10"
-        android:hint="Character Skin"
+        android:hint="@string/character_skin"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView8" />
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/eyesEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginEnd="32dp"
         android:background="@android:color/white"
         android:ems="10"
-        android:hint="Character Eyes"
+        android:hint="@string/character_eyes"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/continueBtnScreenFive"
@@ -215,15 +220,16 @@
         android:textColor="#B9D6F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/eyesEdit" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/backBtnScreenFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@android:color/white"
+        android:contentDescription="@string/back_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_arrow_back24dp" />

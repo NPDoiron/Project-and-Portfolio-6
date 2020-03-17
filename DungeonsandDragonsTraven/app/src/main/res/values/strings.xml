@@ -49,6 +49,14 @@
     <string name="character_s_name">Character\'s Name</string>
     <string name="create_character">Create Character</string>
     <string name="generate_name">Generate Name</string>
+    <string name="other_proficiencies">Other Proficiencies</string>
+    <string name="physical_characteristics">Physical Characteristics</string>
+    <string name="hair">Hair</string>
+    <string name="skin">Skin</string>
+    <string name="eyes">Eyes</string>
+    <string name="character_hair">Character Hair</string>
+    <string name="character_skin">Character Skin</string>
+    <string name="character_eyes">Character Eyes</string>
 
     <string-array name="all_races">
         <item>Select a race.</item>
@@ -66,7 +74,7 @@
         <item>Deep Gnome</item>
         <item>Rock Gnome</item>
         <item>Goliath</item>
-        <item>High-Elf</item>
+        <item>Half-Elf</item>
         <item>Half-Orc</item>
         <item>Human</item>
         <item>Lightfoot Halfling</item>
@@ -138,5 +146,80 @@
         <item>Sylvan</item>
         <item>Undercommon</item>
         <item>Vedalken</item>
+    </string-array>
+
+    <string-array name="artisan_tools">
+        <item>Select a art</item>
+        <item>Alchemist’s supplies</item>
+        <item>Brewer’s supplies</item>
+        <item>Carpenter’s tools</item>
+        <item>Cartographer’s tools</item>
+        <item>Cobbler’s tools</item>
+        <item>Cook’s utensils</item>
+        <item>Glassblower’s tools</item>
+        <item>Jeweler’s tools</item>
+        <item>Leatherworker’s tools</item>
+        <item>Mason’s tools</item>
+        <item>Painter’s supplies</item>
+        <item>Potter’s tools</item>
+        <item>Smith’s tools</item>
+        <item>Tinker’s tools</item>
+        <item>Weaver’s tools</item>
+        <item>Woodcarver’s tools</item>
+    </string-array>
+
+    <string-array name="exotic_languages">
+        <item>Select exotic language</item>
+        <item>Abyssal</item>
+        <item>Celestial</item>
+        <item>Deep Speech</item>
+        <item>Draconic</item>
+        <item>Infernal</item>
+        <item>Primordial</item>
+        <item>Undercommon</item>
+    </string-array>
+
+    <string-array name="game_set">
+        <item>Select a game set</item>
+        <item>Dice</item>
+        <item>Dragonchess</item>
+        <item>Playing cards</item>
+        <item>Three-Dragon Ante</item>
+    </string-array>
+
+    <string-array name="thieve_tool">
+        <item>Thieves Tools</item>
+    </string-array>
+
+    <string-array name="vehicles">
+        <item>Vehicles (Land)</item>
+    </string-array>
+
+    <string-array name="nothing">
+        <item>None</item>
+    </string-array>
+
+    <string-array name="all_alignments">
+        <item>Select a alignment</item>
+        <item>Chaotic Evil</item>
+        <item>Chaotic Good</item>
+        <item>Chaotic Neutral</item>
+        <item>Lawful Evil</item>
+        <item>Lawful Good</item>
+        <item>Lawful Neutral</item>
+        <item>Neutral</item>
+        <item>Neutral Evil</item>
+        <item>Neutral Good</item>
+    </string-array>
+
+    <string-array name="all_lifestyles">
+        <item>Select a lifestyle</item>
+        <item>Wretched</item>
+        <item>Squalid</item>
+        <item>Poor</item>
+        <item>Modest</item>
+        <item>Comfortable</item>
+        <item>Wealthy</item>
+        <item>Aristocratic</item>
     </string-array>
 </resources>

@@ -65,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/heightEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginEnd="16dp"
@@ -79,7 +79,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/weightEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@android:color/white"
@@ -87,12 +87,12 @@
         android:hint="@string/character_s_weight"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="@+id/heightEdit"
         app:layout_constraintTop_toTopOf="@+id/textView3"
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/ageEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@android:color/white"
@@ -100,12 +100,12 @@
         android:hint="@string/character_s_age"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="@+id/editText6"
+        app:layout_constraintEnd_toEndOf="@+id/weightEdit"
         app:layout_constraintTop_toTopOf="@+id/textView4"
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/genderEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@android:color/white"
@@ -113,12 +113,12 @@
         android:hint="@string/character_s_gender"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
-        app:layout_constraintEnd_toEndOf="@+id/editText7"
+        app:layout_constraintEnd_toEndOf="@+id/ageEdit"
         app:layout_constraintTop_toTopOf="@+id/textView5"
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/nameEdit"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@android:color/white"
@@ -126,7 +126,7 @@
         android:hint="@string/character_s_name"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/textView13"
-        app:layout_constraintEnd_toEndOf="@+id/editText8"
+        app:layout_constraintEnd_toEndOf="@+id/genderEdit"
         app:layout_constraintTop_toTopOf="@+id/textView13"
         android:importantForAutofill="no" />
 
@@ -138,8 +138,8 @@
         android:background="#0353A4"
         android:text="@string/generate_name"
         android:textColor="#B9D6F2"
-        app:layout_constraintEnd_toEndOf="@+id/editText9"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintEnd_toEndOf="@+id/nameEdit"
+        app:layout_constraintTop_toBottomOf="@+id/nameEdit" />
 
     <Button
         android:id="@+id/createCharacterFinalBtn"
@@ -153,4 +153,15 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/manualGenerateBtn" />
+
+    <ImageView
+        android:id="@+id/backBtnScreenFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

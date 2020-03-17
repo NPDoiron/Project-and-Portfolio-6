@@ -57,7 +57,7 @@ public class CharacterCreateBtnFrag extends Fragment {
                null, 0, 0, 0, 0, 0, 0, null,
                null, null, null, null,null, null,
                null, null, null, null, null, null, null, null, null,
-               null);
+               null, null);
        return newCharacter;
     }
 }

@@ -28,6 +28,12 @@ import org.w3c.dom.Text;
 public class ManualScreenTwo extends Fragment {
 
     Character character;
+    int strBaseInt;
+    int dexBaseInt;
+    int conBaseInt;
+    int wisBaseInt;
+    int charBaseInt;
+    int intBaseInt;
 
     public static ManualScreenTwo newInstance(Character currentCharacter) {
 
@@ -47,7 +53,7 @@ public class ManualScreenTwo extends Fragment {
 
         character = (Character) getArguments().getSerializable("Character");
 
-        TextView pointsRemaining = getActivity().findViewById(R.id.remainingDisplay);
+        final TextView pointsRemaining = getActivity().findViewById(R.id.remainingDisplay);
         ImageView backBtn = getActivity().findViewById(R.id.backBtnScreenTwo);
         Button continueBtn = getActivity().findViewById(R.id.continueBtnScreenThree);
         final TextView strBase = getActivity().findViewById(R.id.strBase);
@@ -83,7 +89,7 @@ public class ManualScreenTwo extends Fragment {
 
 
 
-        pointsRemaining.setText("27/27");
+        pointsRemaining.setText("27");
 
         setRaceBonus(character.race);
 
@@ -100,17 +106,17 @@ public class ManualScreenTwo extends Fragment {
         conMod.setText("-1");
         wisMod.setText("-1");
 
-        final int strBaseInt = Integer.parseInt(strBase.getText().toString());
+        strBaseInt = Integer.parseInt(strBase.getText().toString());
         int strBonusInt = Integer.parseInt(strBonus.getText().toString());
-        final int dexBaseInt = Integer.parseInt(dexBase.getText().toString());
+        dexBaseInt = Integer.parseInt(dexBase.getText().toString());
         int dexBonusInt = Integer.parseInt(dexBonus.getText().toString());
-        final int conBaseInt = Integer.parseInt(conBase.getText().toString());
+        conBaseInt = Integer.parseInt(conBase.getText().toString());
         int conBonusInt = Integer.parseInt(conBonus.getText().toString());
-        final int wisBaseInt = Integer.parseInt(wisBase.getText().toString());
+        wisBaseInt = Integer.parseInt(wisBase.getText().toString());
         int wisBonusInt = Integer.parseInt(wisBonus.getText().toString());
-        final int charBaseInt = Integer.parseInt(charBase.getText().toString());
+        charBaseInt = Integer.parseInt(charBase.getText().toString());
         int charBonusInt = Integer.parseInt(charBonus.getText().toString());
-        final int intBaseInt = Integer.parseInt(intBase.getText().toString());
+        intBaseInt = Integer.parseInt(intBase.getText().toString());
         int intBonusInt = Integer.parseInt(intBonus.getText().toString());
 
         strTotal.setText(String.valueOf(strBaseInt + strBonusInt));
@@ -131,9 +137,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 strBase.setText(strSpinner.getSelectedItem().toString());
-                int strBaseInt = Integer.parseInt(strBase.getText().toString());
+                strBaseInt = Integer.parseInt(strBase.getText().toString());
                 int strBonusInt = Integer.parseInt(strBonus.getText().toString());
                 strTotal.setText(String.valueOf(strBaseInt + strBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -146,9 +156,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 wisBase.setText(wisSpinner.getSelectedItem().toString());
-                int wisBaseInt = Integer.parseInt(wisBase.getText().toString());
+                wisBaseInt = Integer.parseInt(wisBase.getText().toString());
                 int wisBonusInt = Integer.parseInt(wisBonus.getText().toString());
                 wisTotal.setText(String.valueOf(wisBaseInt + wisBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -161,9 +175,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 dexBase.setText(dexSpinner.getSelectedItem().toString());
-                int dexBaseInt = Integer.parseInt(dexBase.getText().toString());
+                dexBaseInt = Integer.parseInt(dexBase.getText().toString());
                 int dexBonusInt = Integer.parseInt(dexBonus.getText().toString());
                 dexTotal.setText(String.valueOf(dexBaseInt + dexBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -176,9 +194,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 conBase.setText(conSpinner.getSelectedItem().toString());
-                int conBaseInt = Integer.parseInt(conBase.getText().toString());
+                conBaseInt = Integer.parseInt(conBase.getText().toString());
                 int conBonusInt = Integer.parseInt(conBonus.getText().toString());
                 conTotal.setText(String.valueOf(conBaseInt + conBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -191,9 +213,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 charBase.setText(charSpinner.getSelectedItem().toString());
-                int charBaseInt = Integer.parseInt(charBase.getText().toString());
+                charBaseInt = Integer.parseInt(charBase.getText().toString());
                 int charBonusInt = Integer.parseInt(charBonus.getText().toString());
                 charTotal.setText(String.valueOf(charBaseInt + charBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -206,9 +232,13 @@ public class ManualScreenTwo extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 intBase.setText(intSpinner.getSelectedItem().toString());
-                int intBaseInt = Integer.parseInt(intBase.getText().toString());
+                intBaseInt = Integer.parseInt(intBase.getText().toString());
                 int intBonusInt = Integer.parseInt(intBonus.getText().toString());
                 intTotal.setText(String.valueOf(intBaseInt + intBonusInt));
+
+                int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
+
+                pointsRemaining.setText(String.valueOf(75 - allPoints));
             }
 
             @Override
@@ -228,7 +258,7 @@ public class ManualScreenTwo extends Fragment {
                 character.setCharis(charBaseInt);
 
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenThree.newInstance()).addToBackStack("Screen Three").commit();
+                        .replace(R.id.fragcontainer, ManualScreenThree.newInstance(character)).addToBackStack("Screen Three").commit();
             }
         });
     }
@@ -312,19 +342,19 @@ public class ManualScreenTwo extends Fragment {
                 break;
 
             case "Wood Elf":
-                dexBonus.setText("0");
+                dexBonus.setText("+2");
                 wisBonus.setText("0");
                 strBonus.setText("0");
-                conBonus.setText("+2");
+                conBonus.setText("0");
                 charBonus.setText("0");
                 intBonus.setText("0");
                 break;
 
             case "High Elf":
-                dexBonus.setText("0");
+                dexBonus.setText("+2");
                 wisBonus.setText("0");
                 strBonus.setText("0");
-                conBonus.setText("+2");
+                conBonus.setText("0");
                 charBonus.setText("0");
                 intBonus.setText("0");
                 break;

@@ -19,7 +19,8 @@ public class Character implements Serializable {
     public String backgroundDesc;
     public String skillProficOne;
     public String skillProficTwo;
-    public String exoticLanguage;
+    public String otherProcOne;
+    public String otherProcTwo;
     public String backgroundFeat;
     public String alignment;
     public String faith;
@@ -37,7 +38,7 @@ public class Character implements Serializable {
                      int _dex, int _con, int _charInt, int _wis, int _charis, String _background, String _backgroundDesc,
                      String _skillProficOne, String _skillProficTwo, String _exoticLang, String _backgroundFeat,
                      String _alignment, String _faith, String _lifeStyle, String _hair, String _skin, String _eyes, String _height, String _weight,
-                     String _age, String _gender, String _characterName) {
+                     String _age, String _gender, String _characterName, String _otherProcTwo) {
         bitmapString = _bitmapString;
         race = _race;
         raceDesc = _raceDesc;
@@ -53,7 +54,7 @@ public class Character implements Serializable {
         backgroundDesc = _backgroundDesc;
         skillProficOne = _skillProficOne;
         skillProficTwo = _skillProficTwo;
-        exoticLanguage = _exoticLang;
+        otherProcOne = _exoticLang;
         backgroundFeat = _backgroundFeat;
         alignment = _alignment;
         faith = _faith;
@@ -66,6 +67,7 @@ public class Character implements Serializable {
         age = _age;
         gender = _gender;
         characterName = _characterName;
+        otherProcTwo = _otherProcTwo;
     }
 
     public void setAlignment(String alignment) {
@@ -112,8 +114,8 @@ public class Character implements Serializable {
         this.dex = dex;
     }
 
-    public void setExoticLanguage(String exoticLanguage) {
-        this.exoticLanguage = exoticLanguage;
+    public void setOtherProcOne(String exoticLanguage) {
+        this.otherProcOne = exoticLanguage;
     }
 
     public void setRace(String race) {
@@ -178,5 +180,9 @@ public class Character implements Serializable {
 
     public void setWeight(String weight) {
         this.weight = weight;
+    }
+
+    public void setOtherProcTwo(String otherProcTwo) {
+        this.otherProcTwo = otherProcTwo;
     }
 }
