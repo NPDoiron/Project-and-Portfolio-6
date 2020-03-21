@@ -7,7 +7,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,9 +17,19 @@ import androidx.fragment.app.Fragment;
 
 import com.example.dungeonsanddragonstraven.menu_screens.MainMenu;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CharacterSelectionFrag extends Fragment {
     private FirebaseAuth mAuth;
+    ArrayList<Character> characters = new ArrayList<>();
+    ArrayList<String> names = new ArrayList<>();
 
     public static CharacterSelectionFrag newInstance() {
 
@@ -33,9 +45,14 @@ public class CharacterSelectionFrag extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         setHasOptionsMenu(true);
+
         mAuth = FirebaseAuth.getInstance();
+        FirebaseDatabase datebase = FirebaseDatabase.getInstance();
+
+        DatabaseReference reference = datebase.getReference("data/users/" + mAuth.getCurrentUser().getUid());
 
         Button logOutBtn = getActivity().findViewById(R.id.logOutBtn);
+        final ListView characterList = getActivity().findViewById(R.id.characterlist);
 
         logOutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +62,39 @@ public class CharacterSelectionFrag extends Fragment {
                         .replace(R.id.fragcontainer, MainMenu.newInstance()).commit();
             }
         });
+
+        ValueEventListener eventListener = new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot ds: dataSnapshot.getChildren()) {
+                    Character character = ds.getValue(Character.class);
+                    if (!characters.contains(character)) {
+                        characters.add(character);
+                    }
+                }
+
+                if (characters.size() > 0){
+                    for (int i = 0; i < characters.size(); i++){
+                        names.add(characters.get(i).characterName);
+                    }
+
+                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+                            getContext(),
+                            android.R.layout.simple_list_item_1,
+                            names );
+
+                    characterList.setAdapter(arrayAdapter);
+                }
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        };
+
+        reference.addValueEventListener(eventListener);
     }
 
     @Nullable

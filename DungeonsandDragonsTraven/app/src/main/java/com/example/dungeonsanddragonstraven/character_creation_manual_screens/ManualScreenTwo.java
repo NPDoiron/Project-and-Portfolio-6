@@ -62,12 +62,12 @@ public class ManualScreenTwo extends Fragment {
         final TextView charBase = getActivity().findViewById(R.id.charBase);
         final TextView intBase = getActivity().findViewById(R.id.intBase);
         final TextView dexBase = getActivity().findViewById(R.id.dexBase);
-        TextView strMod = getActivity().findViewById(R.id.strMod);
-        TextView dexMod = getActivity().findViewById(R.id.dexMod);
-        TextView intMod = getActivity().findViewById(R.id.intMod);
-        TextView charMod = getActivity().findViewById(R.id.charMod);
-        TextView conMod = getActivity().findViewById(R.id.conMod);
-        TextView wisMod = getActivity().findViewById(R.id.wisMod);
+        final TextView strMod = getActivity().findViewById(R.id.strMod);
+        final TextView dexMod = getActivity().findViewById(R.id.dexMod);
+        final TextView intMod = getActivity().findViewById(R.id.intMod);
+        final TextView charMod = getActivity().findViewById(R.id.charMod);
+        final TextView conMod = getActivity().findViewById(R.id.conMod);
+        final TextView wisMod = getActivity().findViewById(R.id.wisMod);
         final TextView strTotal = getActivity().findViewById(R.id.strTotal);
         final TextView dexTotal = getActivity().findViewById(R.id.dexTotal);
         final TextView intTotal = getActivity().findViewById(R.id.intTotal);
@@ -144,6 +144,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (strBaseInt < 10){
+                    strMod.setText("-1");
+                } else if (strBaseInt >= 10 && strBaseInt < 12){
+                    strMod.setText("0");
+                } else if (strBaseInt >= 12 && strBaseInt < 14){
+                    strMod.setText("+1");
+                } else if (strBaseInt >= 14){
+                    strMod.setText("+2");
+                }
             }
 
             @Override
@@ -163,6 +173,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (wisBonusInt < 10){
+                    wisMod.setText("-1");
+                } else if (wisBaseInt >= 10 && wisBaseInt < 12){
+                    wisMod.setText("0");
+                } else if (wisBaseInt >= 12 && wisBaseInt < 14){
+                    wisMod.setText("+1");
+                } else if (wisBaseInt >= 14){
+                    wisMod.setText("+2");
+                }
             }
 
             @Override
@@ -182,6 +202,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (dexBaseInt < 10){
+                    dexMod.setText("-1");
+                } else if (dexBaseInt >= 10 && dexBaseInt < 12){
+                    dexMod.setText("0");
+                } else if (dexBaseInt >= 12 && dexBaseInt < 14){
+                    dexMod.setText("+1");
+                } else if (dexBaseInt >= 14){
+                    dexMod.setText("+2");
+                }
             }
 
             @Override
@@ -201,6 +231,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (conBaseInt < 10){
+                    conMod.setText("-1");
+                } else if (conBaseInt >= 10 && conBaseInt < 12){
+                    conMod.setText("0");
+                } else if (conBaseInt >= 12 && conBaseInt < 14){
+                    conMod.setText("+1");
+                } else if (conBaseInt >= 14){
+                    conMod.setText("+2");
+                }
             }
 
             @Override
@@ -220,6 +260,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (charBaseInt < 10){
+                    charMod.setText("-1");
+                } else if (charBaseInt >= 10 && charBaseInt < 12){
+                    charMod.setText("0");
+                } else if (charBaseInt >= 12 && charBaseInt < 14){
+                    charMod.setText("+1");
+                } else if (charBaseInt >= 14){
+                    charMod.setText("+2");
+                }
             }
 
             @Override
@@ -239,6 +289,16 @@ public class ManualScreenTwo extends Fragment {
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
                 pointsRemaining.setText(String.valueOf(75 - allPoints));
+
+                if (intBaseInt < 10){
+                    intMod.setText("-1");
+                } else if (intBaseInt >= 10 && intBaseInt < 12){
+                    intMod.setText("0");
+                } else if (intBaseInt >= 12 && intBaseInt < 14){
+                    intMod.setText("+1");
+                } else if (intBaseInt >= 14){
+                    intMod.setText("+2");
+                }
             }
 
             @Override

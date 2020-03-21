@@ -29,12 +29,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state relative-caret-position="43">
+              <caret line="59" column="84" lean-forward="true" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2163#2327#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
+                <element signature="e#2279#2442#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,10 +52,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="275" column="8" lean-forward="true" selection-start-line="275" selection-start-column="8" selection-end-line="278" selection-end-column="49" />
+            <state relative-caret-position="2">
+              <caret line="184" column="17" lean-forward="true" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5881#6044#0" expanded="true" />
+                <element signature="e#6043#6044#0" expanded="true" />
+                <element signature="class#6067:6849" />
                 <element signature="method#onCreateOptionsMenu#0;class#ManualScreenTwo#0" />
                 <element signature="e#12208#12217#0" />
                 <element signature="method#setRaceBonus#0;class#ManualScreenTwo#0" />
@@ -65,10 +68,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2959#2967#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#CharacterSelectionFrag#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/character_selection_screen.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+            <state relative-caret-position="613">
+              <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="103" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1810#1973#0" expanded="true" />
@@ -82,12 +109,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="82" column="64" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
+            <state relative-caret-position="718">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2857#3020#0" expanded="true" />
-                <element signature="e#3019#3020#0" expanded="true" />
+                <element signature="e#3040#3203#0" expanded="true" />
+                <element signature="e#3202#3203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,7 +166,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/MainMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/character_button_screens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/character_button_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/menu_screens/SignUpFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/manual_creation_menu_one.xml" />
@@ -152,17 +178,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/Character.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterCreateBtnFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenTwo.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/manual_screen_four.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/manual_screen_five.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFive.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFour.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenThree.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFour.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFive.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenTwo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="7" />
+    <option name="y" value="47" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
@@ -346,11 +374,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32844934" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32844934" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -403,6 +430,30 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer2" />
@@ -442,14 +493,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sign_up_screen.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/character_selection_screen.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml">
       <provider selected="true" editor-type-id="android-designer2" />
@@ -630,17 +673,6 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CharacterSelectionFrag#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterCreateBtnFrag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
@@ -676,36 +708,52 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFour.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="82" column="64" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
+        <state relative-caret-position="613">
+          <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="103" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2857#3020#0" expanded="true" />
-            <element signature="e#3019#3020#0" expanded="true" />
+            <element signature="e#1810#1973#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="method#getBackgroundDescription#0;class#ManualScreenThree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3040#3203#0" expanded="true" />
+            <element signature="e#3202#3203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="43">
+          <caret line="59" column="84" lean-forward="true" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2163#2327#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2279#2442#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="275" column="8" lean-forward="true" selection-start-line="275" selection-start-column="8" selection-end-line="278" selection-end-column="49" />
+        <state relative-caret-position="2">
+          <caret line="184" column="17" lean-forward="true" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5881#6044#0" expanded="true" />
+            <element signature="e#6043#6044#0" expanded="true" />
+            <element signature="class#6067:6849" />
             <element signature="method#onCreateOptionsMenu#0;class#ManualScreenTwo#0" />
             <element signature="e#12208#12217#0" />
             <element signature="method#setRaceBonus#0;class#ManualScreenTwo#0" />
@@ -713,15 +761,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/character_creation_manual_screens/ManualScreenThree.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/character_selection_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dungeonsanddragonstraven/CharacterSelectionFrag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+        <state relative-caret-position="88">
+          <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1810#1973#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="method#getBackgroundDescription#0;class#ManualScreenThree#0" />
+            <element signature="e#2959#2967#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#CharacterSelectionFrag#0" />
           </folding>
         </state>
       </provider>
