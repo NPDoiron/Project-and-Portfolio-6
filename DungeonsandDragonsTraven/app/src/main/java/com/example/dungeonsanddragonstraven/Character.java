@@ -70,6 +70,10 @@ public class Character implements Serializable {
         otherProcTwo = _otherProcTwo;
     }
 
+    public Character(){
+
+    }
+
     public void setAlignment(String alignment) {
         this.alignment = alignment;
     }
