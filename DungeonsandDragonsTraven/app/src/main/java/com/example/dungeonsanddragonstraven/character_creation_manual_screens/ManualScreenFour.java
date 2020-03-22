@@ -22,11 +22,14 @@ import com.example.dungeonsanddragonstraven.Character;
 import com.example.dungeonsanddragonstraven.CharacterSelectionFrag;
 import com.example.dungeonsanddragonstraven.R;
 
+import java.util.Random;
+
 public class ManualScreenFour extends Fragment {
-    public static ManualScreenFour newInstance(Character current) {
+    public static ManualScreenFour newInstance(Character current, String type) {
 
         Bundle args = new Bundle();
         args.putSerializable("Character", current);
+        args.putString("Type", type);
 
         ManualScreenFour fragment = new ManualScreenFour();
         fragment.setArguments(args);
@@ -76,6 +79,15 @@ public class ManualScreenFour extends Fragment {
                 getActivity().onBackPressed();
             }
         });
+
+        if (getArguments().getString("Type") == "Randomization"){
+            Spinner lifeStyle = getActivity().findViewById(R.id.lifeStyleSpinner);
+            Spinner alignment = getActivity().findViewById(R.id.alignmentSpinner);
+
+            lifeStyle.setSelection(randomInt(lifeStyle.getCount()));
+
+            alignment.setSelection(randomInt(alignment.getCount()));
+        }
     }
 
     @Override
@@ -134,6 +146,13 @@ public class ManualScreenFour extends Fragment {
                 backgroundFeat.setText("You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.");
                 break;
         }
+    }
+
+    public int randomInt(int max){
+        final int min = 1;
+        final int random = new Random().nextInt((max - min)) + min;
+
+        return random;
     }
 
 }

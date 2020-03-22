@@ -28,10 +28,11 @@ public class ManualScreenFive extends Fragment {
     private FirebaseAuth mAuth;
     private DatabaseReference ref;
 
-    public static ManualScreenFive newInstance(Character current) {
+    public static ManualScreenFive newInstance(Character current, String type) {
 
         Bundle args = new Bundle();
         args.putSerializable("Character", current);
+        args.putString("Type", type);
 
         ManualScreenFive fragment = new ManualScreenFive();
         fragment.setArguments(args);
@@ -84,6 +85,10 @@ public class ManualScreenFive extends Fragment {
                         .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
             }
         });
+
+        if (getArguments().getString("Type") == "Randomization"){
+            name.setText(current.characterName);
+        }
     }
 
     @Override

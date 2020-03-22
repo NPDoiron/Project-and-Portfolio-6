@@ -178,7 +178,7 @@ public class ManualScreenTwo extends Fragment {
 
                 pointsRemaining.setText(String.valueOf(63 - allPoints));
 
-                if (wisBonusInt < 10){
+                if (wisBaseInt < 10){
                     wisMod.setText("-1");
                 } else if (wisBaseInt >= 10 && wisBaseInt < 12){
                     wisMod.setText("0");
@@ -311,45 +311,58 @@ public class ManualScreenTwo extends Fragment {
             }
         });
 
+
         if (getArguments().getString("Type") == "Randomization"){
+            int random = randomInt(12);
+
             for (int i = 0; i < strSpinner.getCount(); i++){
                 strSpinner.setSelection(i);
-                if (strSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (strSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
+
+            random = randomInt(12);
 
             for (int i = 0; i < dexSpinner.getCount(); i++){
                 dexSpinner.setSelection(i);
-                if (dexSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (dexSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
+
+            random = randomInt(12);
 
             for (int i = 0; i < intSpinner.getCount(); i++){
                 intSpinner.setSelection(i);
-                if (intSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (intSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
+
+            random = randomInt(12);
 
             for (int i = 0; i < wisSpinner.getCount(); i++){
                 wisSpinner.setSelection(i);
-                if (wisSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (wisSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
+
+            random = randomInt(12);
 
             for (int i = 0; i < conSpinner.getCount(); i++){
                 conSpinner.setSelection(i);
-                if (conSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (conSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
 
+            random = randomInt(12);
+
             for (int i = 0; i < charSpinner.getCount(); i++){
                 charSpinner.setSelection(i);
-                if (charSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                if (charSpinner.getSelectedItem().toString().equals(String.valueOf(random))){
                     break;
                 }
             }
@@ -366,7 +379,7 @@ public class ManualScreenTwo extends Fragment {
                 character.setCharis(charBaseInt);
 
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenThree.newInstance(character)).addToBackStack("Screen Three").commit();
+                        .replace(R.id.fragcontainer, ManualScreenThree.newInstance(character, getArguments().getString("Type"))).addToBackStack("Screen Three").commit();
             }
         });
     }
@@ -597,7 +610,7 @@ public class ManualScreenTwo extends Fragment {
 
     public int randomInt(int max){
         final int min = 8;
-        final int random = new Random().nextInt((max - min) + 1) + min;
+        final int random = new Random().nextInt((max - min)) + min;
 
         return random;
     }

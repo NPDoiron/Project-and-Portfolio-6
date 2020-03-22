@@ -99,7 +99,7 @@ public class RandomizerPrefFrag extends Fragment {
 
     public int randomInt(int max){
         final int min = 1;
-        final int random = new Random().nextInt((max - min) + 1) + min;
+        final int random = new Random().nextInt((max - min)) + min;
 
         return random;
     }

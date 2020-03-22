@@ -22,12 +22,16 @@ import com.example.dungeonsanddragonstraven.Character;
 import com.example.dungeonsanddragonstraven.CharacterSelectionFrag;
 import com.example.dungeonsanddragonstraven.R;
 
-public class ManualScreenThree extends Fragment {
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Random;
 
-    public static ManualScreenThree newInstance(Character current) {
+public class ManualScreenThree extends Fragment {
+    public static ManualScreenThree newInstance(Character current, String type) {
 
         Bundle args = new Bundle();
         args.putSerializable("Character", current);
+        args.putString("Type", type);
 
         ManualScreenThree fragment = new ManualScreenThree();
         fragment.setArguments(args);
@@ -39,6 +43,7 @@ public class ManualScreenThree extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         setHasOptionsMenu(true);
+        final Character currentCharacter = (Character) getArguments().getSerializable("Character");
 
         Button continueBtn = getActivity().findViewById(R.id.continueBtnScreenFour);
         ImageView backBtn = getActivity().findViewById(R.id.backBtnScreenThree);
@@ -74,8 +79,6 @@ public class ManualScreenThree extends Fragment {
                 Spinner spinnerOne = getActivity().findViewById(R.id.langSpinnerOne);
                 Spinner spinnerTwo = getActivity().findViewById(R.id.langSpinnerTwo);
 
-                Character currentCharacter = (Character) getArguments().getSerializable("Character");
-
                 currentCharacter.setBackground(backgroundSpinner.getSelectedItem().toString());
                 currentCharacter.setBackgroundDesc(backgroundDesc.getText().toString());
                 currentCharacter.setSkillProficOne(skillOne.getText().toString());
@@ -84,9 +87,30 @@ public class ManualScreenThree extends Fragment {
                 currentCharacter.setOtherProcTwo(spinnerTwo.getSelectedItem().toString());
 
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenFour.newInstance(currentCharacter)).addToBackStack("Screen Four").commit();
+                        .replace(R.id.fragcontainer, ManualScreenFour.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Four").commit();
             }
         });
+
+        if (getArguments().getString("Type") == "Randomization"){
+            Spinner spinnerOne = getActivity().findViewById(R.id.langSpinnerOne);
+            Spinner spinnerTwo = getActivity().findViewById(R.id.langSpinnerTwo);
+
+            for (int i = 0; i < backgroundSpinner.getCount(); i++){
+                backgroundSpinner.setSelection(i);
+                if (backgroundSpinner.getSelectedItem().toString().equals(String.valueOf(currentCharacter.background))){
+                    getBackgroundDescription(backgroundSpinner.getSelectedItem().toString());
+                    break;
+                }
+            }
+
+            if (spinnerOne.getCount() > 1) {
+                spinnerOne.setSelection(randomInt(spinnerOne.getCount()));
+            }
+
+            if (spinnerTwo.getCount() > 1) {
+                spinnerTwo.setSelection(randomInt(spinnerTwo.getCount()));
+            }
+        }
     }
 
     @Nullable
@@ -233,5 +257,12 @@ public class ManualScreenThree extends Fragment {
 
                 break;
         }
+    }
+
+    public int randomInt(int max){
+        final int min = 1;
+        final int random = new Random().nextInt((max - min)) + min;
+
+        return random;
     }
 }
