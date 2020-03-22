@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -50,33 +51,37 @@ public class RandomizerPrefFrag extends Fragment {
         generateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Character randomCharacter = beginCharacterCreation();
+                if (!name.getText().toString().trim().equals("")) {
+                    Character randomCharacter = beginCharacterCreation();
 
-                randomCharacter.setCharacterName(name.getText().toString());
+                    randomCharacter.setCharacterName(name.getText().toString());
 
-                if (characterClass.getSelectedItem().toString().equals("Select a class")){
-                    characterClass.setSelection(randomInt(characterClass.getCount()));
-                    randomCharacter.setClassString(characterClass.getSelectedItem().toString());
+                    if (characterClass.getSelectedItem().toString().equals("Select a class")) {
+                        characterClass.setSelection(randomInt(characterClass.getCount()));
+                        randomCharacter.setClassString(characterClass.getSelectedItem().toString());
+                    } else {
+                        randomCharacter.setClassString(characterClass.getSelectedItem().toString());
+                    }
+
+                    if (race.getSelectedItem().equals("Select a race")) {
+                        race.setSelection(randomInt(race.getCount()));
+                        randomCharacter.setRace(race.getSelectedItem().toString());
+                    } else {
+                        randomCharacter.setRace(race.getSelectedItem().toString());
+                    }
+
+                    if (background.getSelectedItem().equals("Choose a background")) {
+                        background.setSelection(randomInt(background.getCount()));
+                        randomCharacter.setBackground(background.getSelectedItem().toString());
+                    } else {
+                        randomCharacter.setBackground(background.getSelectedItem().toString());
+                    }
+
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragcontainer, ManualScreenOne.newInstance(randomCharacter, "Randomization")).commit();
                 }else{
-                    randomCharacter.setClassString(characterClass.getSelectedItem().toString());
+                    Toast.makeText(getActivity(), "Please enter a name to begin the process.", Toast.LENGTH_LONG).show();
                 }
-
-                if (race.getSelectedItem().equals("Select a race")){
-                    race.setSelection(randomInt(race.getCount()));
-                    randomCharacter.setRace(race.getSelectedItem().toString());
-                }else{
-                    randomCharacter.setRace(race.getSelectedItem().toString());
-                }
-
-                if (background.getSelectedItem().equals("Choose a background")){
-                    background.setSelection(randomInt(background.getCount()));
-                    randomCharacter.setBackground(background.getSelectedItem().toString());
-                }else{
-                    randomCharacter.setBackground(background.getSelectedItem().toString());
-                }
-
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenOne.newInstance(randomCharacter, "Randomization")).commit();
             }
         });
 

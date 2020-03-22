@@ -95,16 +95,21 @@ public class ManualScreenOne extends Fragment {
             @Override
             public void onClick(View v) {
 
-                TextView classDesc = getActivity().findViewById(R.id.classDescText);
-                TextView raceDesc = getActivity().findViewById(R.id.raceDescText);
+                if (raceSpinner.getSelectedItem().toString().equals("Select a race") ||
+                        classSpinner.getSelectedItem().toString().equals("Select a class")) {
+                    Toast.makeText(getActivity(), "One of the required fields are not filled out.", Toast.LENGTH_SHORT).show();
+                } else {
+                    TextView classDesc = getActivity().findViewById(R.id.classDescText);
+                    TextView raceDesc = getActivity().findViewById(R.id.raceDescText);
 
-                currentCharacter.setRace(raceSpinner.getSelectedItem().toString());
-                currentCharacter.setRaceDesc(raceDesc.getText().toString());
-                currentCharacter.setClassDesc(classDesc.getText().toString());
-                currentCharacter.setClassString(classSpinner.getSelectedItem().toString());
+                    currentCharacter.setRace(raceSpinner.getSelectedItem().toString());
+                    currentCharacter.setRaceDesc(raceDesc.getText().toString());
+                    currentCharacter.setClassDesc(classDesc.getText().toString());
+                    currentCharacter.setClassString(classSpinner.getSelectedItem().toString());
 
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenTwo.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Two").commit();
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragcontainer, ManualScreenTwo.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Two").commit();
+                }
             }
         });
 

@@ -69,7 +69,7 @@ public class ManualScreenFour extends Fragment {
                 current.setAlignment(lifeStyle.getSelectedItem().toString());
 
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenFive.newInstance(current)).addToBackStack("Screen Five").commit();
+                        .replace(R.id.fragcontainer, ManualScreenFive.newInstance(current, getArguments().getString("Type"))).addToBackStack("Screen Five").commit();
             }
         });
 
