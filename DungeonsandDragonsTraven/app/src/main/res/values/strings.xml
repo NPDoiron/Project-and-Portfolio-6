@@ -57,9 +57,11 @@
     <string name="character_hair">Character Hair</string>
     <string name="character_skin">Character Skin</string>
     <string name="character_eyes">Character Eyes</string>
+    <string name="generate">Generate</string>
+    <string name="enter_name">Enter Name</string>
 
     <string-array name="all_races">
-        <item>Select a race.</item>
+        <item>Select a race</item>
         <item>Aarakocra</item>
         <item>Dragonborn</item>
         <item>Hill Dwarf</item>
@@ -84,7 +86,7 @@
     </string-array>
 
     <string-array name="all_classes">
-        <item>Select a class.</item>
+        <item>Select a class</item>
         <item>Barbarian</item>
         <item>Bard</item>
         <item>Cleric</item>

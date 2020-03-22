@@ -35,10 +35,11 @@ public class ManualScreenOne extends Fragment {
     private static final int PICK_IMAGE = 1;
     Character currentCharacter;
 
-    public static ManualScreenOne newInstance(Character character) {
+    public static ManualScreenOne newInstance(Character character, String type) {
 
         Bundle args = new Bundle();
         args.putSerializable("Creation", character);
+        args.putString("Type", type);
 
         ManualScreenOne fragment = new ManualScreenOne();
         fragment.setArguments(args);
@@ -103,9 +104,27 @@ public class ManualScreenOne extends Fragment {
                 currentCharacter.setClassString(classSpinner.getSelectedItem().toString());
 
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenTwo.newInstance(currentCharacter)).addToBackStack("Screen Two").commit();
+                        .replace(R.id.fragcontainer, ManualScreenTwo.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Two").commit();
             }
         });
+
+        if (getArguments().getString("Type") == "Randomization"){
+            for (int i = 0; i < raceSpinner.getCount(); i++){
+                raceSpinner.setSelection(i);
+                if (raceSpinner.getSelectedItem().toString() == currentCharacter.race){
+                    setRaceDesc(raceSpinner.getSelectedItem().toString());
+                    break;
+                }
+            }
+
+            for (int i = 0; i < classSpinner.getCount(); i++){
+                classSpinner.setSelection(i);
+                if (classSpinner.getSelectedItem().toString() == currentCharacter.classString){
+                    setClassDesc(classSpinner.getSelectedItem().toString());
+                    break;
+                }
+            }
+        }
     }
 
     @Nullable

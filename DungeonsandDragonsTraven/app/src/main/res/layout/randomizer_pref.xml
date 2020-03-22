@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
@@ -8,73 +9,117 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/characterTitleRandom"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/character_s_name"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/randomRaceTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="118dp" />
+        android:layout_marginTop="32dp"
+        android:text="@string/race"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/characterTitleRandom"
+        app:layout_constraintTop_toBottomOf="@+id/characterNameRandom" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/randomClassTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="200dp" />
+        android:layout_marginTop="32dp"
+        android:text="@string/clas"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/randomRaceSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/randomRaceSpinner" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/randomBackgroundTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="301dp" />
+        android:layout_marginTop="32dp"
+        android:text="@string/background"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/randomClassSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/randomClassSpinner" />
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="153dp" />
+        android:id="@+id/randomRaceSpinner"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white"
+        android:entries="@array/all_races"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/randomRaceTitle"
+        app:layout_constraintTop_toBottomOf="@+id/randomRaceTitle" />
 
     <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="260dp" />
+        android:id="@+id/randomClassSpinner"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white"
+        android:entries="@array/all_classes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/randomClassTitle"
+        app:layout_constraintTop_toBottomOf="@+id/randomClassTitle" />
 
     <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:id="@+id/randomBackgroundSpinner"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white"
+        android:entries="@array/background_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/randomBackgroundTitle"
+        app:layout_constraintTop_toBottomOf="@+id/randomBackgroundTitle" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/characterNameRandom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:ems="10"
+        android:hint="@string/enter_name"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintStart_toStartOf="@+id/characterTitleRandom"
+        app:layout_constraintTop_toBottomOf="@+id/characterTitleRandom" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/generateBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#0353A4"
+        android:text="@string/generate"
+        android:textColor="#B9D6F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomBackgroundSpinner" />
+
+    <ImageView
+        android:id="@+id/randomBackBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="544dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

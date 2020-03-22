@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.dungeonsanddragonstraven.character_creation_manual_screens.ManualScreenOne;
+import com.example.dungeonsanddragonstraven.randomization.RandomizerPrefFrag;
 
 public class CharacterCreateBtnFrag extends Fragment {
     public static CharacterCreateBtnFrag newInstance() {
@@ -28,13 +29,22 @@ public class CharacterCreateBtnFrag extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         Button manualBtn = getActivity().findViewById(R.id.manualBtn);
+        Button randomBtn = getActivity().findViewById(R.id.randombtn);
         ImageView backBtn = getActivity().findViewById(R.id.creationBtnScreenBackBtn);
 
         manualBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenOne.newInstance(beginCharacterCreation())).commit();
+                        .replace(R.id.fragcontainer, ManualScreenOne.newInstance(beginCharacterCreation(), "manual")).commit();
+            }
+        });
+
+        randomBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragcontainer, RandomizerPrefFrag.newInstance()).addToBackStack("Random").commit();
             }
         });
 

@@ -25,6 +25,9 @@ import com.example.dungeonsanddragonstraven.R;
 
 import org.w3c.dom.Text;
 
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
+
 public class ManualScreenTwo extends Fragment {
 
     Character character;
@@ -35,10 +38,11 @@ public class ManualScreenTwo extends Fragment {
     int charBaseInt;
     int intBaseInt;
 
-    public static ManualScreenTwo newInstance(Character currentCharacter) {
+    public static ManualScreenTwo newInstance(Character currentCharacter, String type) {
 
         Bundle args = new Bundle();
         args.putSerializable("Character", currentCharacter);
+        args.putString("Type", type);
 
         ManualScreenTwo fragment = new ManualScreenTwo();
         fragment.setArguments(args);
@@ -89,7 +93,7 @@ public class ManualScreenTwo extends Fragment {
 
 
 
-        pointsRemaining.setText("27");
+        pointsRemaining.setText("15");
 
         setRaceBonus(character.race);
 
@@ -143,7 +147,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (strBaseInt < 10){
                     strMod.setText("-1");
@@ -172,7 +176,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (wisBonusInt < 10){
                     wisMod.setText("-1");
@@ -201,7 +205,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (dexBaseInt < 10){
                     dexMod.setText("-1");
@@ -230,7 +234,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (conBaseInt < 10){
                     conMod.setText("-1");
@@ -259,7 +263,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (charBaseInt < 10){
                     charMod.setText("-1");
@@ -288,7 +292,7 @@ public class ManualScreenTwo extends Fragment {
 
                 int allPoints = strBaseInt + wisBaseInt + conBaseInt + charBaseInt + dexBaseInt + intBaseInt;
 
-                pointsRemaining.setText(String.valueOf(75 - allPoints));
+                pointsRemaining.setText(String.valueOf(63 - allPoints));
 
                 if (intBaseInt < 10){
                     intMod.setText("-1");
@@ -306,6 +310,50 @@ public class ManualScreenTwo extends Fragment {
 
             }
         });
+
+        if (getArguments().getString("Type") == "Randomization"){
+            for (int i = 0; i < strSpinner.getCount(); i++){
+                strSpinner.setSelection(i);
+                if (strSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+
+            for (int i = 0; i < dexSpinner.getCount(); i++){
+                dexSpinner.setSelection(i);
+                if (dexSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+
+            for (int i = 0; i < intSpinner.getCount(); i++){
+                intSpinner.setSelection(i);
+                if (intSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+
+            for (int i = 0; i < wisSpinner.getCount(); i++){
+                wisSpinner.setSelection(i);
+                if (wisSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+
+            for (int i = 0; i < conSpinner.getCount(); i++){
+                conSpinner.setSelection(i);
+                if (conSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+
+            for (int i = 0; i < charSpinner.getCount(); i++){
+                charSpinner.setSelection(i);
+                if (charSpinner.getSelectedItem().toString() == String.valueOf(randomInt(12))){
+                    break;
+                }
+            }
+        }
 
         continueBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -398,7 +446,7 @@ public class ManualScreenTwo extends Fragment {
                 strBonus.setText("0");
                 conBonus.setText("0");
                 charBonus.setText("0");
-                intBonus.setText('0');
+                intBonus.setText("0");
                 break;
 
             case "Wood Elf":
@@ -545,6 +593,13 @@ public class ManualScreenTwo extends Fragment {
                 intBonus.setText("0");
                 break;
         }
+    }
+
+    public int randomInt(int max){
+        final int min = 8;
+        final int random = new Random().nextInt((max - min) + 1) + min;
+
+        return random;
     }
 
 }
