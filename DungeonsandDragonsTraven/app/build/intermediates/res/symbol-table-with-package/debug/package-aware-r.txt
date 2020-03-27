@@ -685,6 +685,8 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back24dp
 drawable ic_cancel_black_24dp
+drawable ic_delete_black_24dp
+drawable ic_edit_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_person_add_black_24dp
@@ -746,6 +748,7 @@ id adjust_height
 id adjust_width
 id ageEdit
 id alertTitle
+id alignmentFaithLifeBtn
 id alignmentSpinner
 id alignmentTitle
 id all
@@ -757,6 +760,7 @@ id backBtnScreenFive
 id backBtnScreenFour
 id backBtnScreenThree
 id backBtnScreenTwo
+id backProBtn
 id backgroundDesc
 id backgroundFeatText
 id backgroundSpinner
@@ -778,6 +782,7 @@ id charMod
 id charRace
 id charSpinner
 id charTotal
+id characterDetailBtn
 id characterImage
 id characterNameRandom
 id characterTitleRandom
@@ -809,6 +814,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id deleteIcon
 id dexBase
 id dexMod
 id dexRace
@@ -818,6 +824,9 @@ id dexTotal
 id dimensions
 id direct
 id disableHome
+id displayTitle
+id display_btn_back_btn
+id editIcon
 id edit_query
 id end
 id expand_activities_button
@@ -839,18 +848,22 @@ id hairEdit
 id heightEdit
 id home
 id homeAsUp
+id hpBtn
 id icon
 id icon_group
 id icon_only
 id ifRoom
 id image
 id imageTitle
+id imageView
+id imageView2
 id info
 id intBase
 id intMod
 id intRace
 id intSpinner
 id intTotal
+id inventoryBtn
 id invisible
 id italic
 id langSpinnerOne
@@ -862,6 +875,12 @@ id light
 id line1
 id line3
 id linearLayout
+id linearLayout2
+id linearLayout3
+id linearLayout4
+id linearLayout5
+id linearLayout6
+id linearLayout7
 id listMode
 id list_item
 id logOutBtn
@@ -945,6 +964,7 @@ id skillOne
 id skillTwo
 id skinEdit
 id spacer
+id spellListBtn
 id split_action_bar
 id spread
 id spread_inside
@@ -953,6 +973,7 @@ id src_in
 id src_over
 id standard
 id start
+id statsBtn
 id strBase
 id strMod
 id strRace
@@ -969,6 +990,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id textView10
 id textView11
 id textView12
@@ -1040,6 +1062,12 @@ layout abc_tooltip
 layout activity_main
 layout character_button_screen
 layout character_selection_screen
+layout display_button
+layout display_screen_five
+layout display_screen_four
+layout display_screen_one
+layout display_screen_three
+layout display_screen_two
 layout login_screen
 layout main_menu_screen
 layout manual_screen_five
@@ -1061,6 +1089,7 @@ layout sign_up_screen
 layout support_simple_spinner_dropdown_item
 menu character_creation_menu
 menu manual_creation_menu_one
+menu select_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1104,9 +1133,11 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string age_years
 string alignment
+string alignment_faith_and_lifestyle
 string app_name
 string back_button
 string background
+string background_and_proficiencies
 string background_feature
 string base
 string cancel_icon
@@ -1115,12 +1146,15 @@ string character_eyes
 string character_hair
 string character_image
 string character_s_age
+string character_s_details
 string character_s_gender
 string character_s_height
+string character_s_hp_race_and_class
 string character_s_name
 string character_s_weight
 string character_skin
 string charism
+string choose_what_you_would_like_to_view
 string clas
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1145,8 +1179,10 @@ string continu
 string create_character
 string create_character_btn
 string default_web_client_id
+string delete_character
 string dex
 string dungeons_dragons_taverns
+string edit_character
 string email
 string enter_faith
 string enter_name
@@ -1165,6 +1201,7 @@ string hair
 string height
 string how_do_you_want_to_create_your_character
 string intpoint
+string inventory
 string langauges
 string lifestyle
 string log_out
@@ -1185,6 +1222,8 @@ string search_menu_title
 string sign_up
 string skill_proficiencies
 string skin
+string spell_list
+string stats
 string status_bar_notification_info_overflow
 string str
 string total

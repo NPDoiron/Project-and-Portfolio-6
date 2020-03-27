@@ -7,6 +7,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -15,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.dungeonsanddragonstraven.character_display_screens.DisplayBtnScreen;
 import com.example.dungeonsanddragonstraven.menu_screens.MainMenu;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -78,12 +80,17 @@ public class CharacterSelectionFrag extends Fragment {
                         names.add(characters.get(i).characterName);
                     }
 
-                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
-                            getContext(),
-                            android.R.layout.simple_list_item_1,
-                            names );
+                    ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, names );
 
                     characterList.setAdapter(arrayAdapter);
+
+                    characterList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                            getActivity().getSupportFragmentManager().beginTransaction()
+                                    .replace(R.id.fragcontainer, DisplayBtnScreen.newInstance(characters.get(position))).addToBackStack("Selected").commit();
+                        }
+                    });
                 }
 
             }

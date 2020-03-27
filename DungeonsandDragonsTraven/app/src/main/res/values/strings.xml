@@ -59,6 +59,16 @@
     <string name="character_eyes">Character Eyes</string>
     <string name="generate">Generate</string>
     <string name="enter_name">Enter Name</string>
+    <string name="choose_what_you_would_like_to_view">Choose what you would like to view</string>
+    <string name="character_s_hp_race_and_class">hp, race, and class</string>
+    <string name="stats">stats</string>
+    <string name="background_and_proficiencies">background and Proficiencies</string>
+    <string name="alignment_faith_and_lifestyle">alignment, faith, and lifestyle</string>
+    <string name="character_s_details">Character\'s details</string>
+    <string name="inventory">Inventory</string>
+    <string name="spell_list">Spell List</string>
+    <string name="delete_character">Delete Character</string>
+    <string name="edit_character">Edit Character</string>
 
     <string-array name="all_races">
         <item>Select a race</item>
