@@ -1,6 +1,8 @@
 package com.example.dungeonsanddragonstraven;
 
 import java.io.Serializable;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class Character implements Serializable {
 
@@ -33,12 +35,18 @@ public class Character implements Serializable {
     public String age;
     public String gender;
     public String characterName;
+    public String status;
+    public ArrayList<Item> inventory;
+    public ArrayList<Spell> spells;
+    public String hp;
+
 
     public Character(String _bitmapString, String _race, String _raceDesc, String _classString, String _classDesc, int _str,
                      int _dex, int _con, int _charInt, int _wis, int _charis, String _background, String _backgroundDesc,
                      String _skillProficOne, String _skillProficTwo, String _exoticLang, String _backgroundFeat,
                      String _alignment, String _faith, String _lifeStyle, String _hair, String _skin, String _eyes, String _height, String _weight,
-                     String _age, String _gender, String _characterName, String _otherProcTwo) {
+                     String _age, String _gender, String _characterName, String _otherProcTwo, String _status, ArrayList<Item> _inventory, ArrayList<Spell> _spells,
+                     String _hp) {
         bitmapString = _bitmapString;
         race = _race;
         raceDesc = _raceDesc;
@@ -68,6 +76,11 @@ public class Character implements Serializable {
         gender = _gender;
         characterName = _characterName;
         otherProcTwo = _otherProcTwo;
+        status = _status;
+        inventory = _inventory;
+        spells = _spells;
+        hp = _hp;
+
     }
 
     public Character(){

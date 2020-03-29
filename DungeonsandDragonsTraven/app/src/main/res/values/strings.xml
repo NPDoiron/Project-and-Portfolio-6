@@ -69,6 +69,12 @@
     <string name="spell_list">Spell List</string>
     <string name="delete_character">Delete Character</string>
     <string name="edit_character">Edit Character</string>
+    <string name="add_item_icon">add item icon</string>
+    <string name="status">Status:</string>
+    <string name="character_status">Character Status</string>
+    <string name="health">Health:</string>
+    <string name="health_points">health points</string>
+    <string name="points">points</string>
 
     <string-array name="all_races">
         <item>Select a race</item>
@@ -233,5 +239,44 @@
         <item>Comfortable</item>
         <item>Wealthy</item>
         <item>Aristocratic</item>
+    </string-array>
+
+    <string-array name="all_races_edit">
+        <item>Aarakocra</item>
+        <item>Dragonborn</item>
+        <item>Hill Dwarf</item>
+        <item>Mountain Dwarf</item>
+        <item>Eladrin Elf</item>
+        <item>High Elf</item>
+        <item>Wood Elf</item>
+        <item>Air Genasi</item>
+        <item>Earth Genasi</item>
+        <item>Water Genasi</item>
+        <item>Fire Genasi</item>
+        <item>Deep Gnome</item>
+        <item>Rock Gnome</item>
+        <item>Goliath</item>
+        <item>Half-Elf</item>
+        <item>Half-Orc</item>
+        <item>Human</item>
+        <item>Lightfoot Halfling</item>
+        <item>Stout Halfling</item>
+        <item>Tiefling</item>
+        <item>Aasimar</item>
+    </string-array>
+
+    <string-array name="all_classes_edit">
+        <item>Barbarian</item>
+        <item>Bard</item>
+        <item>Cleric</item>
+        <item>Druid</item>
+        <item>Fighter</item>
+        <item>Monk</item>
+        <item>Paladin</item>
+        <item>Ranger</item>
+        <item>Rogue</item>
+        <item>Sorcerer</item>
+        <item>Warlock</item>
+        <item>Wizard</item>
     </string-array>
 </resources>

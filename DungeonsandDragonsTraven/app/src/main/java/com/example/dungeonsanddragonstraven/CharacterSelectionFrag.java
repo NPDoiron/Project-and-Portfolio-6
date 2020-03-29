@@ -81,9 +81,7 @@ public class CharacterSelectionFrag extends Fragment {
                     }
 
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, names );
-
                     characterList.setAdapter(arrayAdapter);
-
                     characterList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

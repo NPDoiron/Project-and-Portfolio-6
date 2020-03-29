@@ -14,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import com.example.dungeonsanddragonstraven.character_creation_manual_screens.ManualScreenOne;
 import com.example.dungeonsanddragonstraven.randomization.RandomizerPrefFrag;
 
+import java.util.ArrayList;
+
 public class CharacterCreateBtnFrag extends Fragment {
     public static CharacterCreateBtnFrag newInstance() {
 
@@ -67,7 +69,7 @@ public class CharacterCreateBtnFrag extends Fragment {
                null, 0, 0, 0, 0, 0, 0, null,
                null, null, null, null,null, null,
                null, null, null, null, null, null, null, null, null,
-               null, null);
+               null, null, "Alive", new ArrayList<Item>(), new ArrayList<Spell>(), "50");
        return newCharacter;
     }
 }

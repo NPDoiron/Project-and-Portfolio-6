@@ -15,9 +15,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.dungeonsanddragonstraven.Character;
+import com.example.dungeonsanddragonstraven.Item;
 import com.example.dungeonsanddragonstraven.R;
+import com.example.dungeonsanddragonstraven.Spell;
 import com.example.dungeonsanddragonstraven.character_creation_manual_screens.ManualScreenOne;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -98,7 +101,7 @@ public class RandomizerPrefFrag extends Fragment {
                 null, 0, 0, 0, 0, 0, 0, null,
                 null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null,
-                null, null);
+                null, null, "Alive", new ArrayList<Item>(), new ArrayList<Spell>(), "50");
         return newCharacter;
     }
 
