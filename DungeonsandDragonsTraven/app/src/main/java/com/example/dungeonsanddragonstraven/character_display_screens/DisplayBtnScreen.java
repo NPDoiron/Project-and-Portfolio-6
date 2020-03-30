@@ -61,7 +61,6 @@ public class DisplayBtnScreen extends Fragment {
         Button hpBtn = getActivity().findViewById(R.id.hpBtn);
         Button stats = getActivity().findViewById(R.id.statsBtn);
         Button background = getActivity().findViewById(R.id.backProBtn);
-        Button alignment = getActivity().findViewById(R.id.alignmentFaithLifeBtn);
         Button details = getActivity().findViewById(R.id.characterDetailBtn);
         Button inventory = getActivity().findViewById(R.id.inventoryBtn);
         Button spell = getActivity().findViewById(R.id.spellListBtn);
@@ -78,7 +77,7 @@ public class DisplayBtnScreen extends Fragment {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, DisplayScreenOne.newInstance(selected)).addToBackStack("hp").commit();
+                        .replace(R.id.fragcontainer, DisplayScreenOne.newInstance(selected)).commit();
             }
         });
 
@@ -86,7 +85,7 @@ public class DisplayBtnScreen extends Fragment {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, DisplayScreenTwo.newInstance(selected)).addToBackStack("stats").commit();
+                        .replace(R.id.fragcontainer, DisplayScreenTwo.newInstance(selected)).commit();
             }
         });
 
@@ -94,22 +93,15 @@ public class DisplayBtnScreen extends Fragment {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, DisplayScreenThree.newInstance(selected)).addToBackStack("backgroundDisplay").commit();
-            }
-        });
-
-        alignment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, DisplayScreenOne.newInstance(selected)).addToBackStack("align").commit();
+                        .replace(R.id.fragcontainer, DisplayScreenThree.newInstance(selected)).commit();
             }
         });
 
         details.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragcontainer, DisplayScreenFour.newInstance(selected)).commit();
             }
         });
 

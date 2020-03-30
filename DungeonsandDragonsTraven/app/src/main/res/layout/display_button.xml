@@ -59,18 +59,6 @@
         app:layout_constraintTop_toBottomOf="@+id/statsBtn" />
 
     <Button
-        android:id="@+id/alignmentFaithLifeBtn"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#0353A4"
-        android:text="@string/alignment_faith_and_lifestyle"
-        android:textColor="#B9D6F2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/backProBtn" />
-
-    <Button
         android:id="@+id/characterDetailBtn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -80,7 +68,7 @@
         android:textColor="#B9D6F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alignmentFaithLifeBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/backProBtn" />
 
     <Button
         android:id="@+id/inventoryBtn"

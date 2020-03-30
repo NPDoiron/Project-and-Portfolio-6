@@ -53,7 +53,8 @@ public class CharacterCreateBtnFrag extends Fragment {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().onBackPressed();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
             }
         });
     }

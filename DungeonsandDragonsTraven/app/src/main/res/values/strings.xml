@@ -166,6 +166,32 @@
         <item>Vedalken</item>
     </string-array>
 
+    <string-array name="all_languages_edit">
+        <item>Abyssal</item>
+        <item>Celestial</item>
+        <item>Daelkyr</item>
+        <item>Deep Speech</item>
+        <item>Draconic</item>
+        <item>Dwarvish</item>
+        <item>Elvish</item>
+        <item>Giant</item>
+        <item>Gith</item>
+        <item>Gnomish</item>
+        <item>Goblin</item>
+        <item>Halfling</item>
+        <item>Infernal</item>
+        <item>Kraul</item>
+        <item>Loxodon</item>
+        <item>Minotaur</item>
+        <item>Orc</item>
+        <item>Primordial</item>
+        <item>Quori</item>
+        <item>Riedran</item>
+        <item>Sylvan</item>
+        <item>Undercommon</item>
+        <item>Vedalken</item>
+    </string-array>
+
     <string-array name="artisan_tools">
         <item>Select a art</item>
         <item>Alchemist’s supplies</item>
@@ -186,8 +212,38 @@
         <item>Woodcarver’s tools</item>
     </string-array>
 
+    <string-array name="artisan_tools_edit">
+        <item>Alchemist’s supplies</item>
+        <item>Brewer’s supplies</item>
+        <item>Carpenter’s tools</item>
+        <item>Cartographer’s tools</item>
+        <item>Cobbler’s tools</item>
+        <item>Cook’s utensils</item>
+        <item>Glassblower’s tools</item>
+        <item>Jeweler’s tools</item>
+        <item>Leatherworker’s tools</item>
+        <item>Mason’s tools</item>
+        <item>Painter’s supplies</item>
+        <item>Potter’s tools</item>
+        <item>Smith’s tools</item>
+        <item>Tinker’s tools</item>
+        <item>Weaver’s tools</item>
+        <item>Woodcarver’s tools</item>
+    </string-array>
+
     <string-array name="exotic_languages">
         <item>Select exotic language</item>
+        <item>Abyssal</item>
+        <item>Celestial</item>
+        <item>Deep Speech</item>
+        <item>Draconic</item>
+        <item>Infernal</item>
+        <item>Primordial</item>
+        <item>Undercommon</item>
+    </string-array>
+
+
+    <string-array name="exotic_languages_edit">
         <item>Abyssal</item>
         <item>Celestial</item>
         <item>Deep Speech</item>
@@ -279,4 +335,44 @@
         <item>Warlock</item>
         <item>Wizard</item>
     </string-array>
+
+    <string-array name="background_array_edit">
+        <item>Acolyte</item>
+        <item>Criminal/Spy</item>
+        <item>Folk Hero</item>
+        <item>Haunted One</item>
+        <item>Noble</item>
+        <item>Sage</item>
+        <item>Soldier</item>
+    </string-array>
+
+    <string-array name="game_set_edit">
+        <item>Dice</item>
+        <item>Dragonchess</item>
+        <item>Playing cards</item>
+        <item>Three-Dragon Ante</item>
+    </string-array>
+
+    <string-array name="all_alignments_edit">
+        <item>Chaotic Evil</item>
+        <item>Chaotic Good</item>
+        <item>Chaotic Neutral</item>
+        <item>Lawful Evil</item>
+        <item>Lawful Good</item>
+        <item>Lawful Neutral</item>
+        <item>Neutral</item>
+        <item>Neutral Evil</item>
+        <item>Neutral Good</item>
+    </string-array>
+
+    <string-array name="all_lifestyles_edit">
+        <item>Wretched</item>
+        <item>Squalid</item>
+        <item>Poor</item>
+        <item>Modest</item>
+        <item>Comfortable</item>
+        <item>Wealthy</item>
+        <item>Aristocratic</item>
+    </string-array>
+
 </resources>
