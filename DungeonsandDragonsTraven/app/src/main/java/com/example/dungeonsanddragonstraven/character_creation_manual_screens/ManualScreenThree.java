@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -79,15 +80,24 @@ public class ManualScreenThree extends Fragment {
                 Spinner spinnerOne = getActivity().findViewById(R.id.langSpinnerOne);
                 Spinner spinnerTwo = getActivity().findViewById(R.id.langSpinnerTwo);
 
-                currentCharacter.setBackground(backgroundSpinner.getSelectedItem().toString());
-                currentCharacter.setBackgroundDesc(backgroundDesc.getText().toString());
-                currentCharacter.setSkillProficOne(skillOne.getText().toString());
-                currentCharacter.setSkillProficTwo(skillTwo.getText().toString());
-                currentCharacter.setOtherProcOne(spinnerOne.getSelectedItem().toString());
-                currentCharacter.setOtherProcTwo(spinnerTwo.getSelectedItem().toString());
+                if (backgroundSpinner.getSelectedItem().toString().equals("Choose a background") || spinnerOne.getSelectedItem().toString().equals("Select a game set") ||
+                        spinnerOne.getSelectedItem().toString().equals("Select exotic language") || spinnerOne.getSelectedItem().toString().equals("Select a art") ||
+                        spinnerOne.getSelectedItem().toString().equals("Select a language") || spinnerTwo.getSelectedItem().toString().equals("Select a game set") ||
+                        spinnerTwo.getSelectedItem().toString().equals("Select exotic language") || spinnerTwo.getSelectedItem().toString().equals("Select a art") ||
+                        spinnerTwo.getSelectedItem().toString().equals("Select a language")) {
+                    Toast.makeText(getActivity(), "One of the required fields are not filled out.", Toast.LENGTH_SHORT).show();
+                } else {
 
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenFour.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Four").commit();
+                    currentCharacter.setBackground(backgroundSpinner.getSelectedItem().toString());
+                    currentCharacter.setBackgroundDesc(backgroundDesc.getText().toString());
+                    currentCharacter.setSkillProficOne(skillOne.getText().toString());
+                    currentCharacter.setSkillProficTwo(skillTwo.getText().toString());
+                    currentCharacter.setOtherProcOne(spinnerOne.getSelectedItem().toString());
+                    currentCharacter.setOtherProcTwo(spinnerTwo.getSelectedItem().toString());
+
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragcontainer, ManualScreenFour.newInstance(currentCharacter, getArguments().getString("Type"))).addToBackStack("Screen Four").commit();
+                }
             }
         });
 

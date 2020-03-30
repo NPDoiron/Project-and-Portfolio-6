@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -60,16 +61,23 @@ public class ManualScreenFour extends Fragment {
                 Spinner alignment = getActivity().findViewById(R.id.alignmentSpinner);
                 Spinner lifeStyle = getActivity().findViewById(R.id.lifeStyleSpinner);
 
-                current.setHair(hair.getText().toString());
-                current.setEyes(eyes.getText().toString());
-                current.setSkin(skin.getText().toString());
-                current.setFaith(faith.getText().toString());
-                current.setBackgroundFeat(backgroundFeat.getText().toString());
-                current.setAlignment(alignment.getSelectedItem().toString());
-                current.setAlignment(lifeStyle.getSelectedItem().toString());
+                if (hair.getText().toString().isEmpty() || eyes.getText().toString().isEmpty() || skin.getText().toString().isEmpty() ||
+                    faith.getText().toString().isEmpty() || alignment.getSelectedItem().toString().equals("Select a alignment") || lifeStyle.getSelectedItem()
+                        .toString().equals("Select a lifestyle")){
+                    Toast.makeText(getActivity(), "One of the required fields are not filled out.", Toast.LENGTH_SHORT).show();
 
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, ManualScreenFive.newInstance(current, getArguments().getString("Type"))).addToBackStack("Screen Five").commit();
+                } else {
+                    current.setHair(hair.getText().toString());
+                    current.setEyes(eyes.getText().toString());
+                    current.setSkin(skin.getText().toString());
+                    current.setFaith(faith.getText().toString());
+                    current.setBackgroundFeat(backgroundFeat.getText().toString());
+                    current.setAlignment(alignment.getSelectedItem().toString());
+                    current.setLifeStyle(lifeStyle.getSelectedItem().toString());
+
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragcontainer, ManualScreenFive.newInstance(current, getArguments().getString("Type"))).addToBackStack("Screen Five").commit();
+                }
             }
         });
 

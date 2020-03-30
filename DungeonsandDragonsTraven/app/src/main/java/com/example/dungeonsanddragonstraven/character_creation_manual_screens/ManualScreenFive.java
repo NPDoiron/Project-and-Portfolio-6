@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -71,18 +72,24 @@ public class ManualScreenFive extends Fragment {
             @Override
             public void onClick(View v) {
 
-                current.setHeight(height.getText().toString());
-                current.setWeight(weight.getText().toString());
-                current.setAge(age.getText().toString());
-                current.setGender(gender.getText().toString());
-                current.setCharacterName(name.getText().toString());
+                if (height.getText().toString().isEmpty() || weight.getText().toString().isEmpty() || age.getText().toString().isEmpty() ||
+                        gender.getText().toString().isEmpty() || name.getText().toString().isEmpty()) {
+                    Toast.makeText(getActivity(), "One of the required fields are not filled out.", Toast.LENGTH_SHORT).show();
 
-                FirebaseUser currentUser = mAuth.getCurrentUser();
-                DatabaseReference userRef = ref.child("users");
-                userRef.child(currentUser.getUid()).child(current.characterName).setValue(current);
+                } else {
+                    current.setHeight(height.getText().toString());
+                    current.setWeight(weight.getText().toString());
+                    current.setAge(age.getText().toString());
+                    current.setGender(gender.getText().toString());
+                    current.setCharacterName(name.getText().toString());
 
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
+                    FirebaseUser currentUser = mAuth.getCurrentUser();
+                    DatabaseReference userRef = ref.child("users");
+                    userRef.child(currentUser.getUid()).child(current.characterName).setValue(current);
+
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragcontainer, CharacterSelectionFrag.newInstance()).commit();
+                }
             }
         });
 
