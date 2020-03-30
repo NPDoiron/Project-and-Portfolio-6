@@ -947,6 +947,7 @@ id linearLayout3
 id linearLayout4
 id linearLayout5
 id linearLayout6
+id linearLayout7
 id listMode
 id list_item
 id logOutBtn

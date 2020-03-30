@@ -66,14 +66,14 @@ public class DisplayScreenFour extends Fragment {
 
         for (int i = 0; i < alignment.getCount(); i++){
             alignment.setSelection(i);
-            if (alignment.getSelectedItem().toString().equals(selected.race)){
+            if (alignment.getSelectedItem().toString().equals(selected.alignment)){
                 break;
             }
         }
 
         for (int i = 0; i < lifestyle.getCount(); i++){
             lifestyle.setSelection(i);
-            if (lifestyle.getSelectedItem().toString().equals(selected.race)){
+            if (lifestyle.getSelectedItem().toString().equals(selected.lifeStyle)){
                 break;
             }
         }
