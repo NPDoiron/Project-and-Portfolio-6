@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5A352A"
+    android:orientation="vertical">
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/spell_name"
+        android:textColor="#B9D6F2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/spellName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="@string/enter_spell_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/spellDescription"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/enter_spell_description_here"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/spellName"
+        app:layout_constraintStart_toStartOf="@+id/spellName"
+        app:layout_constraintTop_toBottomOf="@+id/spellName"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/spellConfirmBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#0353A4"
+        android:text="@string/confirm"
+        android:textColor="#B9D6F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spellDescription" />
+
+    <Button
+        android:id="@+id/spellCancelBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#0353A4"
+        android:text="@android:string/cancel"
+        android:textColor="#B9D6F2"
+        app:layout_constraintEnd_toEndOf="@+id/spellConfirmBtn"
+        app:layout_constraintStart_toStartOf="@+id/spellConfirmBtn"
+        app:layout_constraintTop_toBottomOf="@+id/spellConfirmBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

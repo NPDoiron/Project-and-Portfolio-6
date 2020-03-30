@@ -115,7 +115,8 @@ public class DisplayBtnScreen extends Fragment {
         spell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragcontainer, SpellListFrag.newInstance(selected)).commit();
             }
         });
     }

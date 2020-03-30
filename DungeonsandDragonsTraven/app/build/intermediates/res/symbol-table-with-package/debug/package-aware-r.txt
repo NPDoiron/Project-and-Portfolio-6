@@ -948,6 +948,8 @@ id linearLayout4
 id linearLayout5
 id linearLayout6
 id linearLayout7
+id linearLayout8
+id linearLayout9
 id listMode
 id list_item
 id logOutBtn
@@ -1033,7 +1035,13 @@ id skillOne
 id skillTwo
 id skinEdit
 id spacer
+id spellCancelBtn
+id spellConfirmBtn
+id spellDescription
+id spellListArea
+id spellListBackBtn
 id spellListBtn
+id spellName
 id split_action_bar
 id spread
 id spread_inside
@@ -1091,7 +1099,9 @@ id textView35
 id textView36
 id textView37
 id textView38
+id textView39
 id textView4
+id textView40
 id textView5
 id textView6
 id textView62
@@ -1240,6 +1250,7 @@ string add_item_icon
 string age_years
 string alignment
 string alignment_faith_and_lifestyle
+string all_spells
 string app_name
 string back_button
 string background
@@ -1282,6 +1293,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string con
+string confirm
 string continu
 string create_character
 string create_character_btn
@@ -1293,6 +1305,8 @@ string edit_character
 string email
 string enter_faith
 string enter_name
+string enter_spell_description_here
+string enter_spell_name
 string eyes
 string faith
 string firebase_database_url
@@ -1333,6 +1347,7 @@ string sign_up
 string skill_proficiencies
 string skin
 string spell_list
+string spell_name
 string stats
 string status
 string status_bar_notification_info_overflow

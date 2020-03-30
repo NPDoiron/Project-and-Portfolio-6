@@ -75,6 +75,11 @@
     <string name="health">Health:</string>
     <string name="health_points">health points</string>
     <string name="points">points</string>
+    <string name="enter_spell_name">Enter spell name</string>
+    <string name="spell_name">Spell Name</string>
+    <string name="enter_spell_description_here">Enter spell description here</string>
+    <string name="confirm">Confirm</string>
+    <string name="all_spells">All Spells</string>
 
     <string-array name="all_races">
         <item>Select a race</item>
